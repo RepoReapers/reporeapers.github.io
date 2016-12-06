@@ -26,14 +26,16 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="/static/downloads/Curating GitHub for Engineered Software Projects.pdf" target="_blank">Paper</a></li>
+                        <li><a href="https://peerj.com/preprints/2617/" target="_blank">Paper</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="/static/downloads/projects.csv">Projects</a></li>
+                        <li><a href="/static/downloads/dataset.csv.gz">Entire Data Set</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="/static/downloads/dataset.1.csv">Data Set (Part 1)</a></li>
-                        <li><a href="/static/downloads/dataset.2.csv">Data Set (Part 2)</a></li>
+                        <li role="header" class="dropdown-header">Training Data Sets</li>
+                        <li><a href="https://gist.github.com/nuthanmunaiah/23dba27be17bbd0abc40079411dbf066#file-organization-csv" target="_blank">Organization</a></li>
+                        <li><a href="https://gist.github.com/nuthanmunaiah/23dba27be17bbd0abc40079411dbf066#file-utility-csv" target="_blank">Utility</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="/static/validation.csv">Validation</a></li>
+                        <li role="header" class="dropdown-header">Validation Data Set</li>
+                        <li><a href="https://gist.github.com/nuthanmunaiah/23dba27be17bbd0abc40079411dbf066#file-validation-csv" target="_blank">Validation</a></li>
                       </ul>
                     </li>
                     <li><a href="/contact.html">Contact</a></li>
@@ -51,10 +53,7 @@
         <h2><code>reaper</code> Run Results</h2>
         <div class="spacer-25"></div>
         <div class="alert alert-success" role="alert">
-            <strong>Like our work?</strong> Send us an <a href="/contact.html">email</a> or <span style="color: black; font-weight: bold;"><img src="/static/images/star.svg" style="height: 5%;"/> Star</span> or <span style="color: black; font-weight: bold;"><img src="/static/images/eye.svg" style="height: 5%;" /> Watch</span> our <a href="https://github.com/RepoReapers/reaper" target="_blank">GitHub repository</a>.
-        </div>
-        <div class="alert alert-info" role="alert">
-            <code>reaper</code> has reaped <strong>250,224</strong> engineered software projects from the <strong>2,247,382</strong> respositories analyzed so far.
+            <strong>Like our work?</strong> <span style="color: black; font-weight: bold;"><img src="/static/images/star.svg" style="height: 5%;"/> Star</span> or <span style="color: black; font-weight: bold;"><img src="/static/images/eye.svg" style="height: 5%;" /> Watch</span> our <a href="https://github.com/RepoReapers/reaper" target="_blank">GitHub repository</a>.
         </div>
         <div class="pull-right">
             <nav>
@@ -71,7 +70,6 @@
                     <th>Repository</th>
                     <th>Links <span class="glyphicon glyphicon-new-window"></span></th>
                     <th>Language</th>
-                    <th>Score</th>
                     <th>Architecture</th>
                     <th>Community</th>
                     <th>CI</th>
@@ -88,307 +86,12 @@
             <tbody>
                 
                 <tr>
-                    <td>nwpan/tripnest_teaser</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/nwpan/tripnest_teaser">API</a> | 
-                        <a target="_blank" href="https://github.com/nwpan/tripnest_teaser">Web</a>
-                    </td>
-                    <td>Ruby</td>
-                    <td>55.0</td>
-                    <td>0.113636</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.424437</td>
-                    <td>6.375</td>
-                    <td>1</td>
-                    <td>0.25</td>
-                    <td>0.035019</td>
-                    <td>active</td>
-                    <td>0</td>
-                    <td>2016-02-22 11:34:25</td>
-                </tr>
-                
-                <tr>
-                    <td>EwyBoy/ModJam4</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/EwyBoy/ModJam4">API</a> | 
-                        <a target="_blank" href="https://github.com/EwyBoy/ModJam4">Web</a>
-                    </td>
-                    <td>Java</td>
-                    <td>60.0</td>
-                    <td>0.909091</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0.034958</td>
-                    <td>0.0</td>
-                    <td>1</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>1</td>
-                    <td>2016-02-22 11:34:25</td>
-                </tr>
-                
-                <tr>
-                    <td>28msec/gridfs-fuse</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/28msec/gridfs-fuse">API</a> | 
-                        <a target="_blank" href="https://github.com/28msec/gridfs-fuse">Web</a>
-                    </td>
-                    <td>C++</td>
-                    <td>85.0</td>
-                    <td>1.0</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>0.14391</td>
-                    <td>2.55</td>
-                    <td>1</td>
-                    <td>0.15</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>13</td>
-                    <td>2016-02-22 11:34:25</td>
-                </tr>
-                
-                <tr>
-                    <td>mbbutler/Iceberg_Detection</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/mbbutler/Iceberg_Detection">API</a> | 
-                        <a target="_blank" href="https://github.com/mbbutler/Iceberg_Detection">Web</a>
-                    </td>
-                    <td>Python</td>
-                    <td>0.0</td>
-                    <td>0.428571</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.15778</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>0</td>
-                    <td>2016-02-22 11:34:25</td>
-                </tr>
-                
-                <tr>
-                    <td>danys/google-code-jam</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/danys/google-code-jam">API</a> | 
-                        <a target="_blank" href="https://github.com/danys/google-code-jam">Web</a>
-                    </td>
-                    <td>C++</td>
-                    <td>0.0</td>
-                    <td>1.0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.028909</td>
-                    <td>5.1</td>
-                    <td>0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>active</td>
-                    <td>0</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>raelgc/ubuntu_snakefire</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/raelgc/ubuntu_snakefire">API</a> | 
-                        <a target="_blank" href="https://github.com/raelgc/ubuntu_snakefire">Web</a>
-                    </td>
-                    <td>Python</td>
-                    <td>65.0</td>
-                    <td>0.909091</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.11454</td>
-                    <td>6.375</td>
-                    <td>1</td>
-                    <td>0.75</td>
-                    <td>0.0</td>
-                    <td>active</td>
-                    <td>0</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>arissa34/Android-Bluetooth-L...</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/arissa34/Android-Bluetooth-Library">API</a> | 
-                        <a target="_blank" href="https://github.com/arissa34/Android-Bluetooth-Library">Web</a>
-                    </td>
-                    <td>Java</td>
-                    <td>80.0</td>
-                    <td>0.9375</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0.049481</td>
-                    <td>5.1</td>
-                    <td>1</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>active</td>
-                    <td>21</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>xwyam/hf</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/xwyam/hf">API</a> | 
-                        <a target="_blank" href="https://github.com/xwyam/hf">Web</a>
-                    </td>
-                    <td>C</td>
-                    <td>0.0</td>
-                    <td>0.928571</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>0.013011</td>
-                    <td>5.1</td>
-                    <td>0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>active</td>
-                    <td>0</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>JHilsberg/UltimateEV3Train</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/JHilsberg/UltimateEV3Train">API</a> | 
-                        <a target="_blank" href="https://github.com/JHilsberg/UltimateEV3Train">Web</a>
-                    </td>
-                    <td>Java</td>
-                    <td>0.0</td>
-                    <td>0.857143</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>0.02649</td>
-                    <td>51.0</td>
-                    <td>0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>2</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>kulalolk/DiamondEnder</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/kulalolk/DiamondEnder">API</a> | 
-                        <a target="_blank" href="https://github.com/kulalolk/DiamondEnder">Web</a>
-                    </td>
-                    <td>Java</td>
-                    <td>0.0</td>
-                    <td>0.976744</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.082474</td>
-                    <td>17.0</td>
-                    <td>0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>1</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>theodi/chef-odi-deployment</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/theodi/chef-odi-deployment">API</a> | 
-                        <a target="_blank" href="https://github.com/theodi/chef-odi-deployment">Web</a>
-                    </td>
-                    <td>Ruby</td>
-                    <td>0.0</td>
-                    <td>0.083333</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0.069959</td>
-                    <td>25.5</td>
-                    <td>0</td>
-                    <td>3.0</td>
-                    <td>0.249531</td>
-                    <td>dormant</td>
-                    <td>0</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>damondoucet/colosseum</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/damondoucet/colosseum">API</a> | 
-                        <a target="_blank" href="https://github.com/damondoucet/colosseum">Web</a>
-                    </td>
-                    <td>C#</td>
-                    <td>0.0</td>
-                    <td>0.979167</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.030112</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>1</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>guojing0/game-theory</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/guojing0/game-theory">API</a> | 
-                        <a target="_blank" href="https://github.com/guojing0/game-theory">Web</a>
-                    </td>
-                    <td>Python</td>
-                    <td>40.0</td>
-                    <td>1.0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.157895</td>
-                    <td>0.0</td>
-                    <td>1</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>7</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
-                    <td>timvanwolfswinkel/catalog</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/timvanwolfswinkel/catalog">API</a> | 
-                        <a target="_blank" href="https://github.com/timvanwolfswinkel/catalog">Web</a>
-                    </td>
-                    <td>PHP</td>
-                    <td>65.0</td>
-                    <td>0.94</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.258742</td>
-                    <td>25.5</td>
-                    <td>1</td>
-                    <td>5.0</td>
-                    <td>0.0</td>
-                    <td>dormant</td>
-                    <td>7</td>
-                    <td>2016-02-22 11:34:24</td>
-                </tr>
-                
-                <tr>
                     <td>androthan/android_kernel_sams...</td>
                     <td>
                         <a target="_blank" href="https://api.github.com/repos/androthan/android_kernel_samsung_aalto_legacy">API</a> | 
                         <a target="_blank" href="https://github.com/androthan/android_kernel_samsung_aalto_legacy">Web</a>
                     </td>
                     <td>C</td>
-                    <td>40.0</td>
                     <td>None</td>
                     <td>4</td>
                     <td>0</td>
@@ -409,7 +112,6 @@
                         <a target="_blank" href="https://github.com/mkfsn/DataMining">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.5</td>
                     <td>2</td>
                     <td>0</td>
@@ -430,7 +132,6 @@
                         <a target="_blank" href="https://github.com/zholos/wavcmp">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>0.857143</td>
                     <td>1</td>
                     <td>0</td>
@@ -451,7 +152,6 @@
                         <a target="_blank" href="https://github.com/BeHive/cloud">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.833333</td>
                     <td>1</td>
                     <td>0</td>
@@ -472,7 +172,6 @@
                         <a target="_blank" href="https://github.com/Protim/protim.github.io">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -493,7 +192,6 @@
                         <a target="_blank" href="https://github.com/jufemaiz/aemo">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>75.0</td>
                     <td>0.647059</td>
                     <td>2</td>
                     <td>0</td>
@@ -514,7 +212,6 @@
                         <a target="_blank" href="https://github.com/striversist/ScreenShot">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.979452</td>
                     <td>1</td>
                     <td>0</td>
@@ -535,7 +232,6 @@
                         <a target="_blank" href="https://github.com/Cbieniak/PoundBackend">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.281481</td>
                     <td>1</td>
                     <td>0</td>
@@ -556,7 +252,6 @@
                         <a target="_blank" href="https://github.com/sAleksovski/Carrier-Air-Wing">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.972222</td>
                     <td>2</td>
                     <td>0</td>
@@ -577,7 +272,6 @@
                         <a target="_blank" href="https://github.com/JoseRamonDiaz/desarrolloWeb">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.683333</td>
                     <td>3</td>
                     <td>0</td>
@@ -598,7 +292,6 @@
                         <a target="_blank" href="https://github.com/KurentoLegacy/kc-mediaspec-conversor">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>90.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -619,7 +312,6 @@
                         <a target="_blank" href="https://github.com/injektoxa/Animals">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>85.0</td>
                     <td>0.867925</td>
                     <td>2</td>
                     <td>0</td>
@@ -640,7 +332,6 @@
                         <a target="_blank" href="https://github.com/xdoobx/2014demo">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.869565</td>
                     <td>2</td>
                     <td>0</td>
@@ -661,7 +352,6 @@
                         <a target="_blank" href="https://github.com/ksyuOk/automatized-custom-service">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.933333</td>
                     <td>2</td>
                     <td>0</td>
@@ -682,7 +372,6 @@
                         <a target="_blank" href="https://github.com/programming1303/OnRelease">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -703,7 +392,6 @@
                         <a target="_blank" href="https://github.com/yenisbel/travel_templates">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>50.0</td>
                     <td>0.133333</td>
                     <td>1</td>
                     <td>0</td>
@@ -724,7 +412,6 @@
                         <a target="_blank" href="https://github.com/farmerbb/Notepad">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>65.0</td>
                     <td>0.95</td>
                     <td>1</td>
                     <td>0</td>
@@ -745,7 +432,6 @@
                         <a target="_blank" href="https://github.com/camgunz/cmp">Web</a>
                     </td>
                     <td>C</td>
-                    <td>75.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -766,7 +452,6 @@
                         <a target="_blank" href="https://github.com/alecklandgraf/boxen">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.111111</td>
                     <td>6</td>
                     <td>0</td>
@@ -787,7 +472,6 @@
                         <a target="_blank" href="https://github.com/fousa/ive">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>20.0</td>
                     <td>0.777778</td>
                     <td>1</td>
                     <td>0</td>
@@ -808,7 +492,6 @@
                         <a target="_blank" href="https://github.com/TeamEos/hardware_libhardware">Web</a>
                     </td>
                     <td>C</td>
-                    <td>70.0</td>
                     <td>0.865169</td>
                     <td>25</td>
                     <td>0</td>
@@ -829,7 +512,6 @@
                         <a target="_blank" href="https://github.com/SlimRoms/android_external_libxml2">Web</a>
                     </td>
                     <td>C</td>
-                    <td>60.0</td>
                     <td>0.962963</td>
                     <td>7</td>
                     <td>0</td>
@@ -850,7 +532,6 @@
                         <a target="_blank" href="https://github.com/Storj/metachains-dtc">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>100.0</td>
                     <td>1.0</td>
                     <td>4</td>
                     <td>1</td>
@@ -871,7 +552,6 @@
                         <a target="_blank" href="https://github.com/polymorphm/plasticine-socks-server">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.769231</td>
                     <td>1</td>
                     <td>0</td>
@@ -892,7 +572,6 @@
                         <a target="_blank" href="https://github.com/Manjago/srobot">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.944444</td>
                     <td>1</td>
                     <td>0</td>
@@ -913,7 +592,6 @@
                         <a target="_blank" href="https://github.com/martolini/readlikeme">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.454545</td>
                     <td>1</td>
                     <td>0</td>
@@ -934,7 +612,6 @@
                         <a target="_blank" href="https://github.com/bmartus/speedtracker">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>30.0</td>
                     <td>0.254902</td>
                     <td>1</td>
                     <td>0</td>
@@ -955,7 +632,6 @@
                         <a target="_blank" href="https://github.com/whiteoctober/cordova-plugin-push-notifications">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>40.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -976,7 +652,6 @@
                         <a target="_blank" href="https://github.com/ThePenguin1140/AIAlgorithms">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.8</td>
                     <td>2</td>
                     <td>0</td>
@@ -997,7 +672,6 @@
                         <a target="_blank" href="https://github.com/NVSeismoLab/commons">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.631579</td>
                     <td>1</td>
                     <td>0</td>
@@ -1018,7 +692,6 @@
                         <a target="_blank" href="https://github.com/nicolas-grekas/Parser">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -1039,7 +712,6 @@
                         <a target="_blank" href="https://github.com/kmusco/StockSimulation">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.940299</td>
                     <td>2</td>
                     <td>0</td>
@@ -1060,7 +732,6 @@
                         <a target="_blank" href="https://github.com/slavepens/database-pdo-class">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -1081,7 +752,6 @@
                         <a target="_blank" href="https://github.com/Romalouz/Automation">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.521739</td>
                     <td>1</td>
                     <td>0</td>
@@ -1102,7 +772,6 @@
                         <a target="_blank" href="https://github.com/ext4spring/command4spring">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>90.0</td>
                     <td>0.92</td>
                     <td>3</td>
                     <td>0</td>
@@ -1123,7 +792,6 @@
                         <a target="_blank" href="https://github.com/bursaar/3DVFX">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.884615</td>
                     <td>1</td>
                     <td>0</td>
@@ -1144,7 +812,6 @@
                         <a target="_blank" href="https://github.com/vampirechicken/rails-3-sandbox">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.428571</td>
                     <td>1</td>
                     <td>0</td>
@@ -1165,7 +832,6 @@
                         <a target="_blank" href="https://github.com/Tricon/blood-drive">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.616667</td>
                     <td>1</td>
                     <td>0</td>
@@ -1186,7 +852,6 @@
                         <a target="_blank" href="https://github.com/thelia-modules/Paypal">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>85.0</td>
                     <td>0.923077</td>
                     <td>2</td>
                     <td>0</td>
@@ -1207,7 +872,6 @@
                         <a target="_blank" href="https://github.com/jthielens/cleo-core">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.964286</td>
                     <td>2</td>
                     <td>0</td>
@@ -1228,7 +892,6 @@
                         <a target="_blank" href="https://github.com/acbron/Algorithm-DataStructure">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.461538</td>
                     <td>1</td>
                     <td>0</td>
@@ -1249,7 +912,6 @@
                         <a target="_blank" href="https://github.com/abbbi/getotrs">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.5</td>
                     <td>1</td>
                     <td>0</td>
@@ -1270,7 +932,6 @@
                         <a target="_blank" href="https://github.com/pratincola/Assignment2">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -1291,7 +952,6 @@
                         <a target="_blank" href="https://github.com/xyongcn/cg-ftracer">Web</a>
                     </td>
                     <td>C</td>
-                    <td>80.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -1312,7 +972,6 @@
                         <a target="_blank" href="https://github.com/Teyras/libabtree">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -1334,7 +993,6 @@
                     </td>
                     <td>Python</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.033846</td>
@@ -1354,7 +1012,6 @@
                         <a target="_blank" href="https://github.com/mjyoung/coder_shortcuts">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.305263</td>
                     <td>1</td>
                     <td>0</td>
@@ -1376,7 +1033,6 @@
                     </td>
                     <td>PHP</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.416049</td>
@@ -1396,7 +1052,6 @@
                         <a target="_blank" href="https://github.com/GarryMoveOut/inwentaryzator">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>85.0</td>
                     <td>0.73913</td>
                     <td>2</td>
                     <td>0</td>
@@ -1417,7 +1072,6 @@
                         <a target="_blank" href="https://github.com/a-slide/Isis">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -1438,7 +1092,6 @@
                         <a target="_blank" href="https://github.com/evybodyisno1/SeptaPlanner">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -1459,7 +1112,6 @@
                         <a target="_blank" href="https://github.com/lanurmi/sailfactor">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>70.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -1480,7 +1132,6 @@
                         <a target="_blank" href="https://github.com/skcryout/blog">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.293103</td>
                     <td>1</td>
                     <td>0</td>
@@ -1501,7 +1152,6 @@
                         <a target="_blank" href="https://github.com/hanj99/MealyHMM">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -1522,7 +1172,6 @@
                         <a target="_blank" href="https://github.com/meet-projects/iscream-yl1-2014">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.818182</td>
                     <td>4</td>
                     <td>0</td>
@@ -1543,7 +1192,6 @@
                         <a target="_blank" href="https://github.com/uchicago-cs/simple-router">Web</a>
                     </td>
                     <td>C</td>
-                    <td>70.0</td>
                     <td>0.777778</td>
                     <td>2</td>
                     <td>0</td>
@@ -1564,7 +1212,6 @@
                         <a target="_blank" href="https://github.com/subokita/Sandbox">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>65.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -1585,7 +1232,6 @@
                         <a target="_blank" href="https://github.com/copr/Asteroids">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.8</td>
                     <td>2</td>
                     <td>0</td>
@@ -1606,7 +1252,6 @@
                         <a target="_blank" href="https://github.com/thriuin/geogratis-sync">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.9</td>
                     <td>1</td>
                     <td>0</td>
@@ -1627,7 +1272,6 @@
                         <a target="_blank" href="https://github.com/Arkshine/Okapi">Web</a>
                     </td>
                     <td>C</td>
-                    <td>60.0</td>
                     <td>0.59375</td>
                     <td>1</td>
                     <td>1</td>
@@ -1648,7 +1292,6 @@
                         <a target="_blank" href="https://github.com/tfont/Skyfire">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.086022</td>
                     <td>1</td>
                     <td>0</td>
@@ -1669,7 +1312,6 @@
                         <a target="_blank" href="https://github.com/ballki/tally_app">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>70.0</td>
                     <td>0.380952</td>
                     <td>2</td>
                     <td>0</td>
@@ -1690,7 +1332,6 @@
                         <a target="_blank" href="https://github.com/TiBeN/UmlToPhpGenerator">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>85.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -1711,7 +1352,6 @@
                         <a target="_blank" href="https://github.com/jheg/GCEnergy">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.5</td>
                     <td>2</td>
                     <td>0</td>
@@ -1732,7 +1372,6 @@
                         <a target="_blank" href="https://github.com/intchanter/Skyblock-CE">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>45.0</td>
                     <td>0.5</td>
                     <td>1</td>
                     <td>0</td>
@@ -1753,7 +1392,6 @@
                         <a target="_blank" href="https://github.com/krillencoder/bloccit">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.504587</td>
                     <td>1</td>
                     <td>0</td>
@@ -1774,7 +1412,6 @@
                         <a target="_blank" href="https://github.com/lallinuo/TSOHA-JudoStalker">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.85</td>
                     <td>1</td>
                     <td>0</td>
@@ -1795,7 +1432,6 @@
                         <a target="_blank" href="https://github.com/developingcountries/osmpal-nodes-basic">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -1816,7 +1452,6 @@
                         <a target="_blank" href="https://github.com/egelke/dssp-client">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>75.0</td>
                     <td>0.816327</td>
                     <td>1</td>
                     <td>0</td>
@@ -1837,7 +1472,6 @@
                         <a target="_blank" href="https://github.com/orno/route">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>100.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>1</td>
@@ -1858,7 +1492,6 @@
                         <a target="_blank" href="https://github.com/happyxgang/EchoPrintAndroid">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>55.0</td>
                     <td>0.867925</td>
                     <td>1</td>
                     <td>0</td>
@@ -1879,7 +1512,6 @@
                         <a target="_blank" href="https://github.com/nighthawk702/Project-Euler-Solutions">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>0.326531</td>
                     <td>2</td>
                     <td>0</td>
@@ -1900,7 +1532,6 @@
                         <a target="_blank" href="https://github.com/LunarLifeblood/QCNLab">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.916667</td>
                     <td>1</td>
                     <td>0</td>
@@ -1921,7 +1552,6 @@
                         <a target="_blank" href="https://github.com/mcholl/SEConcordance">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.65</td>
                     <td>1</td>
                     <td>0</td>
@@ -1942,7 +1572,6 @@
                         <a target="_blank" href="https://github.com/acaly/MAPKUDataAPI">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.555556</td>
                     <td>1</td>
                     <td>0</td>
@@ -1963,7 +1592,6 @@
                         <a target="_blank" href="https://github.com/edwardsmatt/flix">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.627273</td>
                     <td>1</td>
                     <td>0</td>
@@ -1984,7 +1612,6 @@
                         <a target="_blank" href="https://github.com/nitetrain8/pbslib">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.823529</td>
                     <td>1</td>
                     <td>0</td>
@@ -2005,7 +1632,6 @@
                         <a target="_blank" href="https://github.com/clehner/motobot">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>0.9</td>
                     <td>1</td>
                     <td>0</td>
@@ -2026,7 +1652,6 @@
                         <a target="_blank" href="https://github.com/maplejune/nightwatch-imax">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -2047,7 +1672,6 @@
                         <a target="_blank" href="https://github.com/zhang699/ShakeMusicBar">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>65.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>1</td>
@@ -2068,7 +1692,6 @@
                         <a target="_blank" href="https://github.com/spindle/spindle-types">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>55.0</td>
                     <td>0.5625</td>
                     <td>1</td>
                     <td>1</td>
@@ -2089,7 +1712,6 @@
                         <a target="_blank" href="https://github.com/TeamTaterTots/backchannel-server">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.326923</td>
                     <td>2</td>
                     <td>0</td>
@@ -2110,7 +1732,6 @@
                         <a target="_blank" href="https://github.com/Crushnaut/myCMS">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>45.0</td>
                     <td>0.829787</td>
                     <td>1</td>
                     <td>1</td>
@@ -2131,7 +1752,6 @@
                         <a target="_blank" href="https://github.com/dbisso/wp-google-analytics-internal">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>50.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -2152,7 +1772,6 @@
                         <a target="_blank" href="https://github.com/stmfunk/site">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.642857</td>
                     <td>1</td>
                     <td>0</td>
@@ -2173,7 +1792,6 @@
                         <a target="_blank" href="https://github.com/sho7650/chef-repo">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.006944</td>
                     <td>1</td>
                     <td>0</td>
@@ -2194,7 +1812,6 @@
                         <a target="_blank" href="https://github.com/eucalyptus/imaging-worker-image">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -2215,7 +1832,6 @@
                         <a target="_blank" href="https://github.com/tedbjorling/kngtz">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>80.0</td>
                     <td>0.9</td>
                     <td>2</td>
                     <td>0</td>
@@ -2236,7 +1852,6 @@
                         <a target="_blank" href="https://github.com/theMagicalKarp/uptown-prototype">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.901099</td>
                     <td>1</td>
                     <td>0</td>
@@ -2257,7 +1872,6 @@
                         <a target="_blank" href="https://github.com/Omnimaga/omninet-control-panel">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>65.0</td>
                     <td>0.782609</td>
                     <td>1</td>
                     <td>0</td>
@@ -2278,7 +1892,6 @@
                         <a target="_blank" href="https://github.com/CubbyHole/beta-eggstar">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.944444</td>
                     <td>1</td>
                     <td>0</td>
@@ -2299,7 +1912,6 @@
                         <a target="_blank" href="https://github.com/fcd1/CulModsXmlOutput">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.979167</td>
                     <td>1</td>
                     <td>0</td>
@@ -2320,7 +1932,6 @@
                         <a target="_blank" href="https://github.com/NHCC-2001-Group7/MathGame">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.8</td>
                     <td>2</td>
                     <td>0</td>
@@ -2341,7 +1952,6 @@
                         <a target="_blank" href="https://github.com/amorphid/sro">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>50.0</td>
                     <td>0.727273</td>
                     <td>1</td>
                     <td>0</td>
@@ -2362,7 +1972,6 @@
                         <a target="_blank" href="https://github.com/rrafols/EcoHack">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.962963</td>
                     <td>2</td>
                     <td>0</td>
@@ -2383,7 +1992,6 @@
                         <a target="_blank" href="https://github.com/bitcoinerie/bitcoinWeb3">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>90.0</td>
                     <td>0.888889</td>
                     <td>3</td>
                     <td>0</td>
@@ -2404,7 +2012,6 @@
                         <a target="_blank" href="https://github.com/projetbomberman/bomberman">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -2425,7 +2032,6 @@
                         <a target="_blank" href="https://github.com/ephox-gcc-plugins/size_overflow">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>0.866667</td>
                     <td>1</td>
                     <td>0</td>
@@ -2446,7 +2052,6 @@
                         <a target="_blank" href="https://github.com/wso2/wso2-ode">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>95.0</td>
                     <td>0.986262</td>
                     <td>2</td>
                     <td>0</td>
@@ -2467,7 +2072,6 @@
                         <a target="_blank" href="https://github.com/alexm92/kinect-for-windows">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.805</td>
                     <td>1</td>
                     <td>0</td>
@@ -2488,7 +2092,6 @@
                         <a target="_blank" href="https://github.com/bay6/my_mongoid">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>75.0</td>
                     <td>0.714286</td>
                     <td>2</td>
                     <td>1</td>
@@ -2509,7 +2112,6 @@
                         <a target="_blank" href="https://github.com/Skalar/quest_back">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>80.0</td>
                     <td>0.833333</td>
                     <td>1</td>
                     <td>1</td>
@@ -2530,7 +2132,6 @@
                         <a target="_blank" href="https://github.com/bioasp/meneco">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>45.0</td>
                     <td>0.833333</td>
                     <td>1</td>
                     <td>0</td>
@@ -2551,7 +2152,6 @@
                         <a target="_blank" href="https://github.com/brunocous/cnass1">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.75</td>
                     <td>2</td>
                     <td>0</td>
@@ -2572,7 +2172,6 @@
                         <a target="_blank" href="https://github.com/Radymus/QMetric">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>65.0</td>
                     <td>0.333333</td>
                     <td>2</td>
                     <td>0</td>
@@ -2593,7 +2192,6 @@
                         <a target="_blank" href="https://github.com/jupiter24/chessboard">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -2614,7 +2212,6 @@
                         <a target="_blank" href="https://github.com/rinselberg/PythonAndPyUnitTestPrograms">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.9</td>
                     <td>1</td>
                     <td>0</td>
@@ -2635,7 +2232,6 @@
                         <a target="_blank" href="https://github.com/socializer/socializer_test">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.037736</td>
                     <td>1</td>
                     <td>0</td>
@@ -2656,7 +2252,6 @@
                         <a target="_blank" href="https://github.com/webmalc/familyHelper">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.833333</td>
                     <td>1</td>
                     <td>0</td>
@@ -2678,7 +2273,6 @@
                     </td>
                     <td>Java</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>2</td>
                     <td>0</td>
                     <td>0.0</td>
@@ -2698,7 +2292,6 @@
                         <a target="_blank" href="https://github.com/RowdyHowell/WaferWarpagePython">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.73913</td>
                     <td>1</td>
                     <td>0</td>
@@ -2719,7 +2312,6 @@
                         <a target="_blank" href="https://github.com/Triballian/brony-blind-bag-cheat">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.388889</td>
                     <td>1</td>
                     <td>0</td>
@@ -2740,7 +2332,6 @@
                         <a target="_blank" href="https://github.com/mbragg02/Battleship">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.954545</td>
                     <td>3</td>
                     <td>0</td>
@@ -2761,7 +2352,6 @@
                         <a target="_blank" href="https://github.com/duykhoa/xantar_bussiness">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.285714</td>
                     <td>1</td>
                     <td>0</td>
@@ -2782,7 +2372,6 @@
                         <a target="_blank" href="https://github.com/carolanncan/learn">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.36</td>
                     <td>1</td>
                     <td>0</td>
@@ -2803,7 +2392,6 @@
                         <a target="_blank" href="https://github.com/jvasilakes/farm-game">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.857143</td>
                     <td>1</td>
                     <td>0</td>
@@ -2824,7 +2412,6 @@
                         <a target="_blank" href="https://github.com/ChrisWongAtCUHK/AlgorithmGossip">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.769231</td>
                     <td>1</td>
                     <td>0</td>
@@ -2845,7 +2432,6 @@
                         <a target="_blank" href="https://github.com/lpedit-devs/lpedit">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>65.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -2866,7 +2452,6 @@
                         <a target="_blank" href="https://github.com/jenkinsci/deployment-notification-plugin">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -2887,7 +2472,6 @@
                         <a target="_blank" href="https://github.com/ethanxm/the3">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>90.0</td>
                     <td>0.855263</td>
                     <td>2</td>
                     <td>0</td>
@@ -2908,7 +2492,6 @@
                         <a target="_blank" href="https://github.com/frimin/ImagesetEditor">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>65.0</td>
                     <td>0.769231</td>
                     <td>1</td>
                     <td>0</td>
@@ -2929,7 +2512,6 @@
                         <a target="_blank" href="https://github.com/RHInception/ansible-xml">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.0</td>
                     <td>2</td>
                     <td>1</td>
@@ -2950,7 +2532,6 @@
                         <a target="_blank" href="https://github.com/redelivre/folia">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>20.0</td>
                     <td>0.444444</td>
                     <td>1</td>
                     <td>0</td>
@@ -2971,7 +2552,6 @@
                         <a target="_blank" href="https://github.com/Ricardo1991/NautoBot2">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.95</td>
                     <td>1</td>
                     <td>0</td>
@@ -2986,34 +2566,12 @@
                 </tr>
                 
                 <tr>
-                    <td>ColumPaget/Hashrat</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/ColumPaget/Hashrat">API</a> | 
-                        <a target="_blank" href="https://github.com/ColumPaget/Hashrat">Web</a>
-                    </td>
-                    <td>C</td>
-                    <td>60.0</td>
-                    <td>0.907407</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0.101901</td>
-                    <td>4.25</td>
-                    <td>1</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>active</td>
-                    <td>8</td>
-                    <td>2016-02-22 11:34:13</td>
-                </tr>
-                
-                <tr>
                     <td>sabonia/sabonia.github.com</td>
                     <td>
                         <a target="_blank" href="https://api.github.com/repos/sabonia/sabonia.github.com">API</a> | 
                         <a target="_blank" href="https://github.com/sabonia/sabonia.github.com">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>3</td>
                     <td>0</td>
@@ -3034,7 +2592,6 @@
                         <a target="_blank" href="https://github.com/Penneo/sdk-php">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>65.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -3055,7 +2612,6 @@
                         <a target="_blank" href="https://github.com/Fischer-L/AndroidStringResourcesGenerator">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>40.0</td>
                     <td>0.956522</td>
                     <td>1</td>
                     <td>0</td>
@@ -3070,13 +2626,32 @@
                 </tr>
                 
                 <tr>
+                    <td>ColumPaget/Hashrat</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/ColumPaget/Hashrat">API</a> | 
+                        <a target="_blank" href="https://github.com/ColumPaget/Hashrat">Web</a>
+                    </td>
+                    <td>C</td>
+                    <td>0.907407</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.101901</td>
+                    <td>4.25</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>active</td>
+                    <td>8</td>
+                    <td>2016-02-22 11:34:13</td>
+                </tr>
+                
+                <tr>
                     <td>AnthonyHonstain/bigfitnessgains</td>
                     <td>
                         <a target="_blank" href="https://api.github.com/repos/AnthonyHonstain/bigfitnessgains">API</a> | 
                         <a target="_blank" href="https://github.com/AnthonyHonstain/bigfitnessgains">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.326087</td>
                     <td>2</td>
                     <td>0</td>
@@ -3097,7 +2672,6 @@
                         <a target="_blank" href="https://github.com/dadamssg/arbiter">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>1</td>
@@ -3118,7 +2692,6 @@
                         <a target="_blank" href="https://github.com/m1ari/UKHASnet-bot">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.954545</td>
                     <td>1</td>
                     <td>0</td>
@@ -3139,7 +2712,6 @@
                         <a target="_blank" href="https://github.com/SeekerResource/HBaseSolrTool">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -3160,7 +2732,6 @@
                         <a target="_blank" href="https://github.com/instance01/CubeWars">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.809524</td>
                     <td>1</td>
                     <td>0</td>
@@ -3181,7 +2752,6 @@
                         <a target="_blank" href="https://github.com/tangentmonger/memepie">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>80.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>1</td>
@@ -3202,7 +2772,6 @@
                         <a target="_blank" href="https://github.com/dylannz/comments">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.777778</td>
                     <td>1</td>
                     <td>0</td>
@@ -3223,7 +2792,6 @@
                         <a target="_blank" href="https://github.com/lichunqiang/php-wechat">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>80.0</td>
                     <td>0.939394</td>
                     <td>1</td>
                     <td>1</td>
@@ -3244,7 +2812,6 @@
                         <a target="_blank" href="https://github.com/nicktendo64/brady-vs-grey">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>65.0</td>
                     <td>0.90625</td>
                     <td>1</td>
                     <td>0</td>
@@ -3265,7 +2832,6 @@
                         <a target="_blank" href="https://github.com/rusucosmin/Cplusplus">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.984308</td>
                     <td>1</td>
                     <td>0</td>
@@ -3286,7 +2852,6 @@
                         <a target="_blank" href="https://github.com/onthebeach/capistrano-slackify">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.333333</td>
                     <td>4</td>
                     <td>1</td>
@@ -3307,7 +2872,6 @@
                         <a target="_blank" href="https://github.com/joeconradt/inkstand">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>65.0</td>
                     <td>0.516667</td>
                     <td>2</td>
                     <td>0</td>
@@ -3328,7 +2892,6 @@
                         <a target="_blank" href="https://github.com/snowleung/jinziqi_python">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.571429</td>
                     <td>2</td>
                     <td>1</td>
@@ -3349,7 +2912,6 @@
                         <a target="_blank" href="https://github.com/sonyi/java">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.078947</td>
                     <td>2</td>
                     <td>0</td>
@@ -3370,7 +2932,6 @@
                         <a target="_blank" href="https://github.com/iSECPartners/DIBF">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>45.0</td>
                     <td>0.64</td>
                     <td>1</td>
                     <td>0</td>
@@ -3391,7 +2952,6 @@
                         <a target="_blank" href="https://github.com/tarebyte/puppet-selfcontrol">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>75.0</td>
                     <td>0.5</td>
                     <td>5</td>
                     <td>1</td>
@@ -3412,7 +2972,6 @@
                         <a target="_blank" href="https://github.com/stain/ro-combine-archive">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>55.0</td>
                     <td>0.4</td>
                     <td>1</td>
                     <td>1</td>
@@ -3433,7 +2992,6 @@
                         <a target="_blank" href="https://github.com/Paulb23/LudumDare">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>40.0</td>
                     <td>0.933333</td>
                     <td>1</td>
                     <td>0</td>
@@ -3454,7 +3012,6 @@
                         <a target="_blank" href="https://github.com/snipem/playstation-price-drop-alert">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>0.454545</td>
                     <td>1</td>
                     <td>1</td>
@@ -3475,7 +3032,6 @@
                         <a target="_blank" href="https://github.com/dusenberrymw/Pine">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -3496,7 +3052,6 @@
                         <a target="_blank" href="https://github.com/qubbit/ant">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>50.0</td>
                     <td>0.25</td>
                     <td>1</td>
                     <td>0</td>
@@ -3517,7 +3072,6 @@
                         <a target="_blank" href="https://github.com/retalemine/retalemine-v1">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>0.987013</td>
                     <td>1</td>
                     <td>0</td>
@@ -3538,7 +3092,6 @@
                         <a target="_blank" href="https://github.com/ion-programming/LD29">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -3559,7 +3112,6 @@
                         <a target="_blank" href="https://github.com/Topographic0cean/web4">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.352941</td>
                     <td>2</td>
                     <td>0</td>
@@ -3580,7 +3132,6 @@
                         <a target="_blank" href="https://github.com/PPedroso/SD_1314">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.57971</td>
                     <td>2</td>
                     <td>0</td>
@@ -3601,7 +3152,6 @@
                         <a target="_blank" href="https://github.com/detly/gammatone">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>75.0</td>
                     <td>0.764706</td>
                     <td>1</td>
                     <td>0</td>
@@ -3622,7 +3172,6 @@
                         <a target="_blank" href="https://github.com/initat-Informationstechnologie-GmbH/mother">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.615385</td>
                     <td>1</td>
                     <td>0</td>
@@ -3643,7 +3192,6 @@
                         <a target="_blank" href="https://github.com/llimllib/bostonmarathon">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -3664,7 +3212,6 @@
                         <a target="_blank" href="https://github.com/lkhodak/RoR-Project">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>50.0</td>
                     <td>0.489051</td>
                     <td>1</td>
                     <td>0</td>
@@ -3685,7 +3232,6 @@
                         <a target="_blank" href="https://github.com/malskat/Groundwater">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>60.0</td>
                     <td>0.764045</td>
                     <td>1</td>
                     <td>0</td>
@@ -3706,7 +3252,6 @@
                         <a target="_blank" href="https://github.com/geosone/debian-ruby-fluentd">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>75.0</td>
                     <td>0.955556</td>
                     <td>1</td>
                     <td>1</td>
@@ -3727,7 +3272,6 @@
                         <a target="_blank" href="https://github.com/LA-Toth/dwa">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.768293</td>
                     <td>1</td>
                     <td>0</td>
@@ -3748,7 +3292,6 @@
                         <a target="_blank" href="https://github.com/mrobinson/violins">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -3769,7 +3312,6 @@
                         <a target="_blank" href="https://github.com/rreb/TheWalkingZombies">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>80.0</td>
                     <td>0.961538</td>
                     <td>3</td>
                     <td>0</td>
@@ -3790,7 +3332,6 @@
                         <a target="_blank" href="https://github.com/Pezmc/BibLatex-Check">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>45.0</td>
                     <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -3811,7 +3352,6 @@
                         <a target="_blank" href="https://github.com/TMKoen/TCA-TM">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.851485</td>
                     <td>2</td>
                     <td>0</td>
@@ -3832,7 +3372,6 @@
                         <a target="_blank" href="https://github.com/ahome-it/ahome-touch">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>65.0</td>
                     <td>0.988142</td>
                     <td>1</td>
                     <td>0</td>
@@ -3853,7 +3392,6 @@
                         <a target="_blank" href="https://github.com/gwenzlau/salt">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.447368</td>
                     <td>1</td>
                     <td>0</td>
@@ -3874,7 +3412,6 @@
                         <a target="_blank" href="https://github.com/projecthydra-labs/engine_factory">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>40.0</td>
                     <td>0.25</td>
                     <td>3</td>
                     <td>0</td>
@@ -3895,7 +3432,6 @@
                         <a target="_blank" href="https://github.com/stanguryev/TaxiOnline">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.860714</td>
                     <td>2</td>
                     <td>0</td>
@@ -3916,7 +3452,6 @@
                         <a target="_blank" href="https://github.com/zfang442872966/Zerg">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.818182</td>
                     <td>2</td>
                     <td>0</td>
@@ -3937,7 +3472,6 @@
                         <a target="_blank" href="https://github.com/marmano/Soccerty">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>70.0</td>
                     <td>0.702341</td>
                     <td>1</td>
                     <td>0</td>
@@ -3958,7 +3492,6 @@
                         <a target="_blank" href="https://github.com/FaceManga/animevideo">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.853659</td>
                     <td>1</td>
                     <td>1</td>
@@ -3979,7 +3512,6 @@
                         <a target="_blank" href="https://github.com/FinnStokes/holy-diver">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.888889</td>
                     <td>2</td>
                     <td>0</td>
@@ -4000,7 +3532,6 @@
                         <a target="_blank" href="https://github.com/nal3vm/dropserver">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.428571</td>
                     <td>3</td>
                     <td>0</td>
@@ -4021,7 +3552,6 @@
                         <a target="_blank" href="https://github.com/mihir-parikh/java_playground">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.625</td>
                     <td>1</td>
                     <td>0</td>
@@ -4042,7 +3572,6 @@
                         <a target="_blank" href="https://github.com/mikezoller/Pantry">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.923077</td>
                     <td>2</td>
                     <td>0</td>
@@ -4063,7 +3592,6 @@
                         <a target="_blank" href="https://github.com/TheBurrito/gsr3-cancan">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>40.0</td>
                     <td>0.625</td>
                     <td>2</td>
                     <td>0</td>
@@ -4084,7 +3612,6 @@
                         <a target="_blank" href="https://github.com/esminc/narrative">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>35.0</td>
                     <td>0.428571</td>
                     <td>2</td>
                     <td>1</td>
@@ -4105,7 +3632,6 @@
                         <a target="_blank" href="https://github.com/peterkomar/qrestclient">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>65.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -4126,7 +3652,6 @@
                         <a target="_blank" href="https://github.com/usagi/wonderland.subsystem">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>45.0</td>
                     <td>0.2</td>
                     <td>1</td>
                     <td>0</td>
@@ -4147,7 +3672,6 @@
                         <a target="_blank" href="https://github.com/ijie/AutoWeb">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.967532</td>
                     <td>1</td>
                     <td>0</td>
@@ -4168,7 +3692,6 @@
                         <a target="_blank" href="https://github.com/deriggi/AR5-World-Bank">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.6</td>
                     <td>1</td>
                     <td>0</td>
@@ -4189,7 +3712,6 @@
                         <a target="_blank" href="https://github.com/omnirom/android_device_htc_pico">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>60.0</td>
                     <td>0.416667</td>
                     <td>2</td>
                     <td>0</td>
@@ -4210,7 +3732,6 @@
                         <a target="_blank" href="https://github.com/floLfg/inrock">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.956246</td>
                     <td>1</td>
                     <td>0</td>
@@ -4231,7 +3752,6 @@
                         <a target="_blank" href="https://github.com/ThomasGoerttler/Graphics">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>80.0</td>
                     <td>0.93</td>
                     <td>2</td>
                     <td>0</td>
@@ -4252,7 +3772,6 @@
                         <a target="_blank" href="https://github.com/tristandewildt/SmartGridDiffusion">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.277778</td>
                     <td>1</td>
                     <td>0</td>
@@ -4273,7 +3792,6 @@
                         <a target="_blank" href="https://github.com/williambailey/vagrant-ca-certificates">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>65.0</td>
                     <td>0.875</td>
                     <td>1</td>
                     <td>0</td>
@@ -4294,7 +3812,6 @@
                         <a target="_blank" href="https://github.com/federf/Automatas2014">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.931034</td>
                     <td>1</td>
                     <td>0</td>
@@ -4315,7 +3832,6 @@
                         <a target="_blank" href="https://github.com/stevenandrewcarter/love_letters">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.671329</td>
                     <td>1</td>
                     <td>0</td>
@@ -4336,7 +3852,6 @@
                         <a target="_blank" href="https://github.com/shinokada/Intersection-Of-Rectangles">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.666667</td>
                     <td>2</td>
                     <td>0</td>
@@ -4357,7 +3872,6 @@
                         <a target="_blank" href="https://github.com/Sundays211/VirtuePk">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.984848</td>
                     <td>1</td>
                     <td>0</td>
@@ -4378,7 +3892,6 @@
                         <a target="_blank" href="https://github.com/OmniBlade/ccmix">Web</a>
                     </td>
                     <td>C</td>
-                    <td>40.0</td>
                     <td>0.071429</td>
                     <td>1</td>
                     <td>0</td>
@@ -4399,7 +3912,6 @@
                         <a target="_blank" href="https://github.com/ipeirotis/mturk-tracker-gae">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>85.0</td>
                     <td>0.925926</td>
                     <td>2</td>
                     <td>0</td>
@@ -4420,7 +3932,6 @@
                         <a target="_blank" href="https://github.com/rahuldeve/PeerToPeer">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.85</td>
                     <td>1</td>
                     <td>0</td>
@@ -4441,7 +3952,6 @@
                         <a target="_blank" href="https://github.com/danielgatis/gatix">Web</a>
                     </td>
                     <td>C</td>
-                    <td>80.0</td>
                     <td>0.933333</td>
                     <td>2</td>
                     <td>0</td>
@@ -4462,7 +3972,6 @@
                         <a target="_blank" href="https://github.com/toastwaffle/KebleBallStatic">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.090909</td>
                     <td>1</td>
                     <td>0</td>
@@ -4483,7 +3992,6 @@
                         <a target="_blank" href="https://github.com/AlexandreCarlos/Custeio">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.681818</td>
                     <td>1</td>
                     <td>0</td>
@@ -4504,7 +4012,6 @@
                         <a target="_blank" href="https://github.com/HackMoc/legendastvmirror">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.857143</td>
                     <td>3</td>
                     <td>0</td>
@@ -4525,7 +4032,6 @@
                         <a target="_blank" href="https://github.com/mosbth/cdatabase">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>80.0</td>
                     <td>0.5</td>
                     <td>2</td>
                     <td>1</td>
@@ -4546,7 +4052,6 @@
                         <a target="_blank" href="https://github.com/TeamnetGroup/Redis.SilverlightClient">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>85.0</td>
                     <td>0.785714</td>
                     <td>2</td>
                     <td>0</td>
@@ -4567,7 +4072,6 @@
                         <a target="_blank" href="https://github.com/netguru/dokku_client">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>65.0</td>
                     <td>0.8</td>
                     <td>1</td>
                     <td>0</td>
@@ -4588,7 +4092,6 @@
                         <a target="_blank" href="https://github.com/tehviking/brick_pi_ruby">Web</a>
                     </td>
                     <td>C</td>
-                    <td>85.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -4609,7 +4112,6 @@
                         <a target="_blank" href="https://github.com/rukmal/UW-OpenData">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.8</td>
                     <td>1</td>
                     <td>0</td>
@@ -4630,7 +4132,6 @@
                         <a target="_blank" href="https://github.com/palasthotel/grid-drupal">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>85.0</td>
                     <td>0.875</td>
                     <td>3</td>
                     <td>0</td>
@@ -4651,7 +4152,6 @@
                         <a target="_blank" href="https://github.com/Kwasar/cvra_vision">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.5</td>
                     <td>2</td>
                     <td>0</td>
@@ -4672,7 +4172,6 @@
                         <a target="_blank" href="https://github.com/jreeseue/apache-hadoop-bft">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>80.0</td>
                     <td>0.963349</td>
                     <td>3</td>
                     <td>0</td>
@@ -4693,7 +4192,6 @@
                         <a target="_blank" href="https://github.com/ksurdhar/cxllab">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.381579</td>
                     <td>1</td>
                     <td>0</td>
@@ -4714,7 +4212,6 @@
                         <a target="_blank" href="https://github.com/simplelogica/nocms-blocks">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>75.0</td>
                     <td>0.246154</td>
                     <td>2</td>
                     <td>0</td>
@@ -4735,7 +4232,6 @@
                         <a target="_blank" href="https://github.com/OlegKleyman/OmegoRepo">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.820896</td>
                     <td>1</td>
                     <td>0</td>
@@ -4756,7 +4252,6 @@
                         <a target="_blank" href="https://github.com/HardcodeSoft/OT-Methods">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.864407</td>
                     <td>2</td>
                     <td>0</td>
@@ -4777,7 +4272,6 @@
                         <a target="_blank" href="https://github.com/ndhockey25/NotreDev">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.866667</td>
                     <td>3</td>
                     <td>0</td>
@@ -4798,7 +4292,6 @@
                         <a target="_blank" href="https://github.com/mrstampy/PoisonIvy">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -4819,7 +4312,6 @@
                         <a target="_blank" href="https://github.com/kabuki0111/ProjectEuler1">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -4840,7 +4332,6 @@
                         <a target="_blank" href="https://github.com/kanzmrsw/tofubuster-web">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -4861,7 +4352,6 @@
                         <a target="_blank" href="https://github.com/Graulf/LIA_wordpress">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>60.0</td>
                     <td>0.952314</td>
                     <td>2</td>
                     <td>0</td>
@@ -4882,7 +4372,6 @@
                         <a target="_blank" href="https://github.com/tomkyle/Cookies">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>55.0</td>
                     <td>0.833333</td>
                     <td>1</td>
                     <td>1</td>
@@ -4903,7 +4392,6 @@
                         <a target="_blank" href="https://github.com/opscode/dep-selector-libgecode">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>65.0</td>
                     <td>0.25</td>
                     <td>4</td>
                     <td>0</td>
@@ -4924,7 +4412,6 @@
                         <a target="_blank" href="https://github.com/Rulexec/post-price-calculator">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.958904</td>
                     <td>1</td>
                     <td>0</td>
@@ -4945,7 +4432,6 @@
                         <a target="_blank" href="https://github.com/wmaintw/web-security-challenge">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.315789</td>
                     <td>1</td>
                     <td>0</td>
@@ -4966,7 +4452,6 @@
                         <a target="_blank" href="https://github.com/cansik/SimpleGameEngine2D">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.949153</td>
                     <td>1</td>
                     <td>0</td>
@@ -4987,7 +4472,6 @@
                         <a target="_blank" href="https://github.com/paterik/BGBarcodeBundle">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.75</td>
                     <td>4</td>
                     <td>1</td>
@@ -5008,7 +4492,6 @@
                         <a target="_blank" href="https://github.com/lut-projects/GamecloudAPI">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -5029,7 +4512,6 @@
                         <a target="_blank" href="https://github.com/JaycenH7/Rails-Tutorial-App">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.311111</td>
                     <td>1</td>
                     <td>0</td>
@@ -5050,7 +4532,6 @@
                         <a target="_blank" href="https://github.com/Schibsted-Tech-Polska/stp.svd-core-bundle">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.511111</td>
                     <td>2</td>
                     <td>0</td>
@@ -5071,7 +4552,6 @@
                         <a target="_blank" href="https://github.com/ShadowMen/Tetris-C-">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.842105</td>
                     <td>1</td>
                     <td>0</td>
@@ -5092,7 +4572,6 @@
                         <a target="_blank" href="https://github.com/jacebrowning/curmit">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>0.4</td>
                     <td>1</td>
                     <td>1</td>
@@ -5113,7 +4592,6 @@
                         <a target="_blank" href="https://github.com/coolBean/zendZentao">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>60.0</td>
                     <td>0.915416</td>
                     <td>1</td>
                     <td>0</td>
@@ -5134,7 +4612,6 @@
                         <a target="_blank" href="https://github.com/hspandher/my_shine">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.461538</td>
                     <td>1</td>
                     <td>0</td>
@@ -5155,7 +4632,6 @@
                         <a target="_blank" href="https://github.com/tallpsmith/assettocorsa-traction-circle">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>95.0</td>
                     <td>0.866667</td>
                     <td>2</td>
                     <td>0</td>
@@ -5176,7 +4652,6 @@
                         <a target="_blank" href="https://github.com/boyska/freepto-usb-utils">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.5</td>
                     <td>2</td>
                     <td>0</td>
@@ -5197,7 +4672,6 @@
                         <a target="_blank" href="https://github.com/osbridge/open-source-bridge-proposals">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.230769</td>
                     <td>1</td>
                     <td>0</td>
@@ -5218,7 +4692,6 @@
                         <a target="_blank" href="https://github.com/dyaa/Laravel-pushover">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>90.0</td>
                     <td>0.8</td>
                     <td>2</td>
                     <td>1</td>
@@ -5239,7 +4712,6 @@
                         <a target="_blank" href="https://github.com/CecileP/TER">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.3125</td>
                     <td>2</td>
                     <td>0</td>
@@ -5260,7 +4732,6 @@
                         <a target="_blank" href="https://github.com/chazomaticus/minit">Web</a>
                     </td>
                     <td>C</td>
-                    <td>45.0</td>
                     <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -5281,7 +4752,6 @@
                         <a target="_blank" href="https://github.com/cardoe/drumfish">Web</a>
                     </td>
                     <td>C</td>
-                    <td>70.0</td>
                     <td>0.9</td>
                     <td>1</td>
                     <td>1</td>
@@ -5302,7 +4772,6 @@
                         <a target="_blank" href="https://github.com/tylerhartley/personal">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.36</td>
                     <td>1</td>
                     <td>0</td>
@@ -5323,7 +4792,6 @@
                         <a target="_blank" href="https://github.com/joomla-framework/archive">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>90.0</td>
                     <td>1.0</td>
                     <td>4</td>
                     <td>1</td>
@@ -5344,7 +4812,6 @@
                         <a target="_blank" href="https://github.com/gnishida/mylib">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.971831</td>
                     <td>1</td>
                     <td>0</td>
@@ -5365,7 +4832,6 @@
                         <a target="_blank" href="https://github.com/Bailei/Halatafl">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>0.875</td>
                     <td>1</td>
                     <td>0</td>
@@ -5386,7 +4852,6 @@
                         <a target="_blank" href="https://github.com/KitchnSink/Project-Spatula">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.5125</td>
                     <td>1</td>
                     <td>1</td>
@@ -5407,7 +4872,6 @@
                         <a target="_blank" href="https://github.com/yekaso/Pharmarays">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>60.0</td>
                     <td>0.521875</td>
                     <td>2</td>
                     <td>0</td>
@@ -5428,7 +4892,6 @@
                         <a target="_blank" href="https://github.com/srohr/CEAMS">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.913934</td>
                     <td>2</td>
                     <td>0</td>
@@ -5449,7 +4912,6 @@
                         <a target="_blank" href="https://github.com/mkersh/FirstRepository">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.947368</td>
                     <td>1</td>
                     <td>0</td>
@@ -5470,7 +4932,6 @@
                         <a target="_blank" href="https://github.com/shubham-kedia/xmlparse">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.355556</td>
                     <td>2</td>
                     <td>0</td>
@@ -5492,7 +4953,6 @@
                     </td>
                     <td>PHP</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.629346</td>
@@ -5512,7 +4972,6 @@
                         <a target="_blank" href="https://github.com/MrSuborbian88/Arch_A1">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -5533,7 +4992,6 @@
                         <a target="_blank" href="https://github.com/plotfarmer/plotfarmer">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>60.0</td>
                     <td>0.9</td>
                     <td>2</td>
                     <td>0</td>
@@ -5555,7 +5013,6 @@
                     </td>
                     <td>Ruby</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.0</td>
@@ -5575,7 +5032,6 @@
                         <a target="_blank" href="https://github.com/aquito/aquito2014">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.977444</td>
                     <td>1</td>
                     <td>0</td>
@@ -5596,7 +5052,6 @@
                         <a target="_blank" href="https://github.com/lefterisk/cms">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.4</td>
                     <td>1</td>
                     <td>0</td>
@@ -5617,7 +5072,6 @@
                         <a target="_blank" href="https://github.com/loadletter/tox-xd">Web</a>
                     </td>
                     <td>C</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -5638,7 +5092,6 @@
                         <a target="_blank" href="https://github.com/turkycat/HackingKinect">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.947368</td>
                     <td>3</td>
                     <td>0</td>
@@ -5659,7 +5112,6 @@
                         <a target="_blank" href="https://github.com/humiaozuzu/humiaozuzu.github.com">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -5680,7 +5132,6 @@
                         <a target="_blank" href="https://github.com/billychou/monitor">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>20.0</td>
                     <td>0.3</td>
                     <td>1</td>
                     <td>0</td>
@@ -5701,7 +5152,6 @@
                         <a target="_blank" href="https://github.com/kevinmost/LiteSync">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.881057</td>
                     <td>2</td>
                     <td>0</td>
@@ -5722,7 +5172,6 @@
                         <a target="_blank" href="https://github.com/Ross-Kitsis/TicTacToe">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.857143</td>
                     <td>1</td>
                     <td>0</td>
@@ -5743,7 +5192,6 @@
                         <a target="_blank" href="https://github.com/TimSC/pyshull">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.857143</td>
                     <td>1</td>
                     <td>0</td>
@@ -5764,7 +5212,6 @@
                         <a target="_blank" href="https://github.com/Rahazan/GConsole">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>85.0</td>
                     <td>0.833333</td>
                     <td>2</td>
                     <td>0</td>
@@ -5785,7 +5232,6 @@
                         <a target="_blank" href="https://github.com/SeniorTeam2014/CampusFit">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.92</td>
                     <td>2</td>
                     <td>0</td>
@@ -5806,7 +5252,6 @@
                         <a target="_blank" href="https://github.com/RafiB/emanuel-computing">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>65.0</td>
                     <td>0.961538</td>
                     <td>1</td>
                     <td>1</td>
@@ -5827,7 +5272,6 @@
                         <a target="_blank" href="https://github.com/ps4eye/ps4eye">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.666667</td>
                     <td>2</td>
                     <td>0</td>
@@ -5848,7 +5292,6 @@
                         <a target="_blank" href="https://github.com/AliCloudEngine/ace-java-demo">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.714286</td>
                     <td>1</td>
                     <td>0</td>
@@ -5870,7 +5313,6 @@
                     </td>
                     <td>PHP</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.915323</td>
@@ -5890,7 +5332,6 @@
                         <a target="_blank" href="https://github.com/GaggleAMP/foyer">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>80.0</td>
                     <td>0.285714</td>
                     <td>2</td>
                     <td>1</td>
@@ -5911,7 +5352,6 @@
                         <a target="_blank" href="https://github.com/lijiahe/TEST">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.333333</td>
                     <td>2</td>
                     <td>0</td>
@@ -5932,7 +5372,6 @@
                         <a target="_blank" href="https://github.com/squirrrel/puzzle">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.22</td>
                     <td>1</td>
                     <td>0</td>
@@ -5953,7 +5392,6 @@
                         <a target="_blank" href="https://github.com/massivedanger/darkholme">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>80.0</td>
                     <td>0.789474</td>
                     <td>1</td>
                     <td>1</td>
@@ -5974,7 +5412,6 @@
                         <a target="_blank" href="https://github.com/xizhonghua/CS682">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.833333</td>
                     <td>1</td>
                     <td>0</td>
@@ -5995,7 +5432,6 @@
                         <a target="_blank" href="https://github.com/girthpigeon/sample_app">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.482759</td>
                     <td>1</td>
                     <td>0</td>
@@ -6016,7 +5452,6 @@
                         <a target="_blank" href="https://github.com/PyroMani/dollhouse-ethshield">Web</a>
                     </td>
                     <td>C</td>
-                    <td>60.0</td>
                     <td>0.916667</td>
                     <td>1</td>
                     <td>0</td>
@@ -6037,7 +5472,6 @@
                         <a target="_blank" href="https://github.com/leandrovianna/cppprimer_codes">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -6058,7 +5492,6 @@
                         <a target="_blank" href="https://github.com/LaureMFischer/rapport">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.5</td>
                     <td>1</td>
                     <td>0</td>
@@ -6079,7 +5512,6 @@
                         <a target="_blank" href="https://github.com/MBottjer/Gallery">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.408451</td>
                     <td>1</td>
                     <td>0</td>
@@ -6100,7 +5532,6 @@
                         <a target="_blank" href="https://github.com/rsymonds/NorthRydeSoccer">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>20.0</td>
                     <td>0.073529</td>
                     <td>1</td>
                     <td>0</td>
@@ -6121,7 +5552,6 @@
                         <a target="_blank" href="https://github.com/gabrielbull/php-browser">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.954545</td>
                     <td>2</td>
                     <td>1</td>
@@ -6142,7 +5572,6 @@
                         <a target="_blank" href="https://github.com/jraczynski/shortly">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.673077</td>
                     <td>1</td>
                     <td>0</td>
@@ -6163,7 +5592,6 @@
                         <a target="_blank" href="https://github.com/raol/raol.github.io">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>65.0</td>
                     <td>1.0</td>
                     <td>3</td>
                     <td>0</td>
@@ -6184,7 +5612,6 @@
                         <a target="_blank" href="https://github.com/skoriceloise/AlgoQL">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -6205,7 +5632,6 @@
                         <a target="_blank" href="https://github.com/kanilturgut/reader">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.976744</td>
                     <td>2</td>
                     <td>0</td>
@@ -6226,7 +5652,6 @@
                         <a target="_blank" href="https://github.com/Pinx0/DiabetesSLM">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.294118</td>
                     <td>2</td>
                     <td>0</td>
@@ -6247,7 +5672,6 @@
                         <a target="_blank" href="https://github.com/pepoto/Grasshopper">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.735294</td>
                     <td>3</td>
                     <td>0</td>
@@ -6268,7 +5692,6 @@
                         <a target="_blank" href="https://github.com/kevinrogerteng/Locally-Application">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>50.0</td>
                     <td>0.329268</td>
                     <td>1</td>
                     <td>0</td>
@@ -6289,7 +5712,6 @@
                         <a target="_blank" href="https://github.com/mithbre/FChunk">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -6310,7 +5732,6 @@
                         <a target="_blank" href="https://github.com/akvo/butler">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>45.0</td>
                     <td>0.4</td>
                     <td>1</td>
                     <td>0</td>
@@ -6331,7 +5752,6 @@
                         <a target="_blank" href="https://github.com/wp-plugins/social-semantic-recommendation-sosere">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.333333</td>
                     <td>1</td>
                     <td>0</td>
@@ -6352,7 +5772,6 @@
                         <a target="_blank" href="https://github.com/pawmas/measurement-embedded-linux-sync-async-usb-write">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -6373,7 +5792,6 @@
                         <a target="_blank" href="https://github.com/cen4010-onlinecardealer/www">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.047619</td>
                     <td>3</td>
                     <td>0</td>
@@ -6394,7 +5812,6 @@
                         <a target="_blank" href="https://github.com/jstepien/psota">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.888889</td>
                     <td>1</td>
                     <td>1</td>
@@ -6415,7 +5832,6 @@
                         <a target="_blank" href="https://github.com/noahl98/JotMobile">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.866667</td>
                     <td>1</td>
                     <td>0</td>
@@ -6436,7 +5852,6 @@
                         <a target="_blank" href="https://github.com/dombrovsky/EntityHooks">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>95.0</td>
                     <td>0.759259</td>
                     <td>2</td>
                     <td>0</td>
@@ -6457,7 +5872,6 @@
                         <a target="_blank" href="https://github.com/ojhaujjwal/UserRbac">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>80.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>1</td>
@@ -6478,7 +5892,6 @@
                         <a target="_blank" href="https://github.com/michibo/feyncop">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -6499,7 +5912,6 @@
                         <a target="_blank" href="https://github.com/pdenis/SnideTravinizerBundle">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>65.0</td>
                     <td>0.935484</td>
                     <td>1</td>
                     <td>1</td>
@@ -6520,7 +5932,6 @@
                         <a target="_blank" href="https://github.com/gerritdrost/mathie">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -6541,7 +5952,6 @@
                         <a target="_blank" href="https://github.com/fredollinger/timesup">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -6562,7 +5972,6 @@
                         <a target="_blank" href="https://github.com/DanielWhite94/robocide">Web</a>
                     </td>
                     <td>C</td>
-                    <td>60.0</td>
                     <td>0.981818</td>
                     <td>1</td>
                     <td>0</td>
@@ -6583,7 +5992,6 @@
                         <a target="_blank" href="https://github.com/Xily9/xilyplus">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>60.0</td>
                     <td>0.84456</td>
                     <td>1</td>
                     <td>0</td>
@@ -6604,7 +6012,6 @@
                         <a target="_blank" href="https://github.com/vdecree/visualdecree.co.uk">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.2</td>
                     <td>1</td>
                     <td>0</td>
@@ -6625,7 +6032,6 @@
                         <a target="_blank" href="https://github.com/UPCnet/transparencia.theme">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.380952</td>
                     <td>2</td>
                     <td>0</td>
@@ -6646,7 +6052,6 @@
                         <a target="_blank" href="https://github.com/cbarazarte7/Software_Tarea_4">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.666667</td>
                     <td>4</td>
                     <td>0</td>
@@ -6667,7 +6072,6 @@
                         <a target="_blank" href="https://github.com/bgheneti/PythonPictoscrape">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.590909</td>
                     <td>3</td>
                     <td>0</td>
@@ -6688,7 +6092,6 @@
                         <a target="_blank" href="https://github.com/mrpenguin2005/JavaProjects">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>50.0</td>
                     <td>0.636364</td>
                     <td>1</td>
                     <td>0</td>
@@ -6709,7 +6112,6 @@
                         <a target="_blank" href="https://github.com/rp3/android-core">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>80.0</td>
                     <td>0.961905</td>
                     <td>2</td>
                     <td>0</td>
@@ -6730,7 +6132,6 @@
                         <a target="_blank" href="https://github.com/liuhangbin/liuhangbin.github.com">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>40.0</td>
                     <td>0.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -6751,7 +6152,6 @@
                         <a target="_blank" href="https://github.com/20chimps/2ndperson">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>60.0</td>
                     <td>0.974843</td>
                     <td>2</td>
                     <td>0</td>
@@ -6772,7 +6172,6 @@
                         <a target="_blank" href="https://github.com/craigknott/CEIT_Sensors_PiModem">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>60.0</td>
                     <td>0.769231</td>
                     <td>1</td>
                     <td>0</td>
@@ -6793,7 +6192,6 @@
                         <a target="_blank" href="https://github.com/codemania113/django-project">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.333333</td>
                     <td>1</td>
                     <td>0</td>
@@ -6814,7 +6212,6 @@
                         <a target="_blank" href="https://github.com/lottejackson/henplanapp">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.517647</td>
                     <td>1</td>
                     <td>0</td>
@@ -6835,7 +6232,6 @@
                         <a target="_blank" href="https://github.com/41407/Ratebeer">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>55.0</td>
                     <td>0.579832</td>
                     <td>1</td>
                     <td>1</td>
@@ -6856,7 +6252,6 @@
                         <a target="_blank" href="https://github.com/Grinnell-CSC282/hw1">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>0.333333</td>
                     <td>10</td>
                     <td>0</td>
@@ -6877,7 +6272,6 @@
                         <a target="_blank" href="https://github.com/mwalton/cycle-nav">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>65.0</td>
                     <td>0.928571</td>
                     <td>1</td>
                     <td>0</td>
@@ -6898,7 +6292,6 @@
                         <a target="_blank" href="https://github.com/MovieStiles/Operating-Systems-HW">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -6919,7 +6312,6 @@
                         <a target="_blank" href="https://github.com/cjlucas/ruby-yayenc">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>55.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>1</td>
@@ -6940,7 +6332,6 @@
                         <a target="_blank" href="https://github.com/fmsanjuan/roisin-core">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>0.882353</td>
                     <td>1</td>
                     <td>0</td>
@@ -6961,7 +6352,6 @@
                         <a target="_blank" href="https://github.com/aviscasillas/espertu">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.346154</td>
                     <td>1</td>
                     <td>0</td>
@@ -6982,7 +6372,6 @@
                         <a target="_blank" href="https://github.com/sfan5/irrlicht-android">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>70.0</td>
                     <td>0.928082</td>
                     <td>2</td>
                     <td>0</td>
@@ -7003,7 +6392,6 @@
                         <a target="_blank" href="https://github.com/mebs/INF2010">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -7024,7 +6412,6 @@
                         <a target="_blank" href="https://github.com/th7/when-do">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>75.0</td>
                     <td>0.833333</td>
                     <td>2</td>
                     <td>0</td>
@@ -7045,7 +6432,6 @@
                         <a target="_blank" href="https://github.com/Invoca/exception_handling">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>95.0</td>
                     <td>0.789474</td>
                     <td>4</td>
                     <td>0</td>
@@ -7066,7 +6452,6 @@
                         <a target="_blank" href="https://github.com/spigwitmer/mysqlproxy">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>50.0</td>
                     <td>0.590909</td>
                     <td>1</td>
                     <td>0</td>
@@ -7087,7 +6472,6 @@
                         <a target="_blank" href="https://github.com/spitfire05/svn-smf-hook">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>45.0</td>
                     <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -7102,34 +6486,12 @@
                 </tr>
                 
                 <tr>
-                    <td>surajbabar/expression-evaluator</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/surajbabar/expression-evaluator">API</a> | 
-                        <a target="_blank" href="https://github.com/surajbabar/expression-evaluator">Web</a>
-                    </td>
-                    <td>Java</td>
-                    <td>0.0</td>
-                    <td>1.0</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0.00464</td>
-                    <td>0.0</td>
-                    <td>0</td>
-                    <td>0.0</td>
-                    <td>0.707395</td>
-                    <td>dormant</td>
-                    <td>0</td>
-                    <td>2016-02-22 11:33:57</td>
-                </tr>
-                
-                <tr>
                     <td>angelino/books_recommendations</td>
                     <td>
                         <a target="_blank" href="https://api.github.com/repos/angelino/books_recommendations">API</a> | 
                         <a target="_blank" href="https://github.com/angelino/books_recommendations">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>55.0</td>
                     <td>0.442623</td>
                     <td>1</td>
                     <td>0</td>
@@ -7150,7 +6512,6 @@
                         <a target="_blank" href="https://github.com/jeromefiot/apiclock">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>75.0</td>
                     <td>0.571429</td>
                     <td>2</td>
                     <td>0</td>
@@ -7171,7 +6532,6 @@
                         <a target="_blank" href="https://github.com/my-king/my-king">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>65.0</td>
                     <td>0.557692</td>
                     <td>2</td>
                     <td>0</td>
@@ -7192,7 +6552,6 @@
                         <a target="_blank" href="https://github.com/umanwizard/libpagemaker">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>60.0</td>
                     <td>0.807692</td>
                     <td>1</td>
                     <td>0</td>
@@ -7213,7 +6572,6 @@
                         <a target="_blank" href="https://github.com/camcory/platform_packages_apps_dialer">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>90.0</td>
                     <td>0.972727</td>
                     <td>4</td>
                     <td>0</td>
@@ -7234,7 +6592,6 @@
                         <a target="_blank" href="https://github.com/fake-name/PyGalil">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>65.0</td>
                     <td>0.583333</td>
                     <td>3</td>
                     <td>0</td>
@@ -7255,7 +6612,6 @@
                         <a target="_blank" href="https://github.com/rasalghul/AgentSystem">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>65.0</td>
                     <td>0.738272</td>
                     <td>2</td>
                     <td>1</td>
@@ -7276,7 +6632,6 @@
                         <a target="_blank" href="https://github.com/ropopopo/inf8405">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.878788</td>
                     <td>2</td>
                     <td>0</td>
@@ -7297,7 +6652,6 @@
                         <a target="_blank" href="https://github.com/zhuowei/is_like_a">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>65.0</td>
                     <td>0.913043</td>
                     <td>1</td>
                     <td>0</td>
@@ -7312,13 +6666,32 @@
                 </tr>
                 
                 <tr>
+                    <td>surajbabar/expression-evaluator</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/surajbabar/expression-evaluator">API</a> | 
+                        <a target="_blank" href="https://github.com/surajbabar/expression-evaluator">Web</a>
+                    </td>
+                    <td>Java</td>
+                    <td>1.0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0.00464</td>
+                    <td>0.0</td>
+                    <td>0</td>
+                    <td>0.0</td>
+                    <td>0.707395</td>
+                    <td>dormant</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:57</td>
+                </tr>
+                
+                <tr>
                     <td>tux3/SepplesOS</td>
                     <td>
                         <a target="_blank" href="https://api.github.com/repos/tux3/SepplesOS">API</a> | 
                         <a target="_blank" href="https://github.com/tux3/SepplesOS">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.790323</td>
                     <td>1</td>
                     <td>0</td>
@@ -7339,7 +6712,6 @@
                         <a target="_blank" href="https://github.com/merume/hokkathon2014">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.342105</td>
                     <td>1</td>
                     <td>0</td>
@@ -7360,7 +6732,6 @@
                         <a target="_blank" href="https://github.com/tuxmaster/ELS-Klient">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>60.0</td>
                     <td>0.9375</td>
                     <td>1</td>
                     <td>0</td>
@@ -7381,7 +6752,6 @@
                         <a target="_blank" href="https://github.com/SlimRoms/device_oppo_common">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>80.0</td>
                     <td>0.916667</td>
                     <td>4</td>
                     <td>0</td>
@@ -7402,7 +6772,6 @@
                         <a target="_blank" href="https://github.com/ralscha/eds-starter-simple">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.588235</td>
                     <td>1</td>
                     <td>0</td>
@@ -7423,7 +6792,6 @@
                         <a target="_blank" href="https://github.com/yoshdog/airport-deluxe">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -7444,7 +6812,6 @@
                         <a target="_blank" href="https://github.com/septag/libdhengine">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.903226</td>
                     <td>1</td>
                     <td>0</td>
@@ -7465,7 +6832,6 @@
                         <a target="_blank" href="https://github.com/sirmosca/recipes">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.633333</td>
                     <td>1</td>
                     <td>0</td>
@@ -7486,7 +6852,6 @@
                         <a target="_blank" href="https://github.com/geniuszhaoyi/NoNameYet">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>0.666667</td>
                     <td>1</td>
                     <td>0</td>
@@ -7507,7 +6872,6 @@
                         <a target="_blank" href="https://github.com/Nasdanika/examples">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>75.0</td>
                     <td>0.83871</td>
                     <td>1</td>
                     <td>0</td>
@@ -7528,7 +6892,6 @@
                         <a target="_blank" href="https://github.com/webzepter/todo-books">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.181818</td>
                     <td>1</td>
                     <td>0</td>
@@ -7549,7 +6912,6 @@
                         <a target="_blank" href="https://github.com/luciddesign/lucid_shopify">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.925926</td>
                     <td>1</td>
                     <td>0</td>
@@ -7570,7 +6932,6 @@
                         <a target="_blank" href="https://github.com/mrkris13/apple-crusher">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -7591,7 +6952,6 @@
                         <a target="_blank" href="https://github.com/funset/androidim-cim">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.965812</td>
                     <td>1</td>
                     <td>0</td>
@@ -7613,7 +6973,6 @@
                     </td>
                     <td>C</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.066667</td>
@@ -7633,7 +6992,6 @@
                         <a target="_blank" href="https://github.com/jetaggart/basic-sinatra-crud-ar">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>50.0</td>
                     <td>0.714286</td>
                     <td>1</td>
                     <td>0</td>
@@ -7654,7 +7012,6 @@
                         <a target="_blank" href="https://github.com/marmat/gps-logger">Web</a>
                     </td>
                     <td>C</td>
-                    <td>80.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -7675,7 +7032,6 @@
                         <a target="_blank" href="https://github.com/NpoSaut/netFirmwarePacking">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.785714</td>
                     <td>1</td>
                     <td>0</td>
@@ -7696,7 +7052,6 @@
                         <a target="_blank" href="https://github.com/bien/chess">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -7717,7 +7072,6 @@
                         <a target="_blank" href="https://github.com/arunmoezhi/KarySearchTrees">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -7738,7 +7092,6 @@
                         <a target="_blank" href="https://github.com/handigarde/san-francisco-food-carts">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>50.0</td>
                     <td>0.888403</td>
                     <td>1</td>
                     <td>0</td>
@@ -7753,34 +7106,12 @@
                 </tr>
                 
                 <tr>
-                    <td>romor/blind-control</td>
-                    <td>
-                        <a target="_blank" href="https://api.github.com/repos/romor/blind-control">API</a> | 
-                        <a target="_blank" href="https://github.com/romor/blind-control">Web</a>
-                    </td>
-                    <td>Python</td>
-                    <td>80.0</td>
-                    <td>0.684211</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0.293532</td>
-                    <td>6.375</td>
-                    <td>1</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>active</td>
-                    <td>4</td>
-                    <td>2016-02-22 11:33:54</td>
-                </tr>
-                
-                <tr>
                     <td>ThomasTran/callem</td>
                     <td>
                         <a target="_blank" href="https://api.github.com/repos/ThomasTran/callem">API</a> | 
                         <a target="_blank" href="https://github.com/ThomasTran/callem">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.391892</td>
                     <td>1</td>
                     <td>1</td>
@@ -7801,7 +7132,6 @@
                         <a target="_blank" href="https://github.com/datht09/eProjectS4G2">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.962963</td>
                     <td>2</td>
                     <td>0</td>
@@ -7822,7 +7152,6 @@
                         <a target="_blank" href="https://github.com/jdramer/CSCNursery">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>60.0</td>
                     <td>0.916667</td>
                     <td>1</td>
                     <td>0</td>
@@ -7843,7 +7172,6 @@
                         <a target="_blank" href="https://github.com/atlefren/mineturer2">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.666667</td>
                     <td>1</td>
                     <td>0</td>
@@ -7864,7 +7192,6 @@
                         <a target="_blank" href="https://github.com/ChaeOkay/RodeoRoundup">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.405405</td>
                     <td>1</td>
                     <td>0</td>
@@ -7885,7 +7212,6 @@
                         <a target="_blank" href="https://github.com/NetAngels/forwarder">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.8</td>
                     <td>1</td>
                     <td>1</td>
@@ -7906,7 +7232,6 @@
                         <a target="_blank" href="https://github.com/shunam/Classifieds-App">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.669118</td>
                     <td>2</td>
                     <td>0</td>
@@ -7921,13 +7246,32 @@
                 </tr>
                 
                 <tr>
+                    <td>romor/blind-control</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/romor/blind-control">API</a> | 
+                        <a target="_blank" href="https://github.com/romor/blind-control">Web</a>
+                    </td>
+                    <td>Python</td>
+                    <td>0.684211</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0.293532</td>
+                    <td>6.375</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>active</td>
+                    <td>4</td>
+                    <td>2016-02-22 11:33:54</td>
+                </tr>
+                
+                <tr>
                     <td>Deoxyribonucleic/dawn</td>
                     <td>
                         <a target="_blank" href="https://api.github.com/repos/Deoxyribonucleic/dawn">API</a> | 
                         <a target="_blank" href="https://github.com/Deoxyribonucleic/dawn">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>75.0</td>
                     <td>0.933333</td>
                     <td>1</td>
                     <td>0</td>
@@ -7948,7 +7292,6 @@
                         <a target="_blank" href="https://github.com/zefyrr/umich_fineng">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.666667</td>
                     <td>2</td>
                     <td>0</td>
@@ -7969,7 +7312,6 @@
                         <a target="_blank" href="https://github.com/ainehanta/RailsTutorial">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.153846</td>
                     <td>1</td>
                     <td>0</td>
@@ -7990,7 +7332,6 @@
                         <a target="_blank" href="https://github.com/kachon/boutique">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.301587</td>
                     <td>2</td>
                     <td>0</td>
@@ -8011,7 +7352,6 @@
                         <a target="_blank" href="https://github.com/mlavandero/garage-sale">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.28</td>
                     <td>1</td>
                     <td>1</td>
@@ -8032,7 +7372,6 @@
                         <a target="_blank" href="https://github.com/charlesmilette/MUI.Themes">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>60.0</td>
                     <td>0.664336</td>
                     <td>1</td>
                     <td>0</td>
@@ -8053,7 +7392,6 @@
                         <a target="_blank" href="https://github.com/kasonyang/hiano">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>70.0</td>
                     <td>0.965517</td>
                     <td>1</td>
                     <td>0</td>
@@ -8074,7 +7412,6 @@
                         <a target="_blank" href="https://github.com/mickem/nscp-docs">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.5</td>
                     <td>1</td>
                     <td>0</td>
@@ -8095,7 +7432,6 @@
                         <a target="_blank" href="https://github.com/merrilymeredith/rb-compress-lzw">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.714286</td>
                     <td>1</td>
                     <td>0</td>
@@ -8117,7 +7453,6 @@
                     </td>
                     <td>Python</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.369919</td>
@@ -8137,7 +7472,6 @@
                         <a target="_blank" href="https://github.com/ptrayal/Project_Twilight">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>0.92</td>
                     <td>1</td>
                     <td>0</td>
@@ -8158,7 +7492,6 @@
                         <a target="_blank" href="https://github.com/alecfwilson/alec-pinteresting">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.174603</td>
                     <td>1</td>
                     <td>0</td>
@@ -8179,7 +7512,6 @@
                         <a target="_blank" href="https://github.com/chumlychum/NAV">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>40.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -8200,7 +7532,6 @@
                         <a target="_blank" href="https://github.com/scorpio4/scorpio4runtime">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.989796</td>
                     <td>1</td>
                     <td>0</td>
@@ -8221,7 +7552,6 @@
                         <a target="_blank" href="https://github.com/tsuru-/Orario_Aule_DMI">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.75</td>
                     <td>2</td>
                     <td>0</td>
@@ -8242,7 +7572,6 @@
                         <a target="_blank" href="https://github.com/emohamed/crb-video">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.944444</td>
                     <td>1</td>
                     <td>0</td>
@@ -8263,7 +7592,6 @@
                         <a target="_blank" href="https://github.com/scottyg/fos">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>70.0</td>
                     <td>0.5</td>
                     <td>2</td>
                     <td>1</td>
@@ -8284,7 +7612,6 @@
                         <a target="_blank" href="https://github.com/muntasirsyed/CriminalIntent">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.823529</td>
                     <td>1</td>
                     <td>0</td>
@@ -8305,7 +7632,6 @@
                         <a target="_blank" href="https://github.com/robojeb/OpenStyleCheck">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>65.0</td>
                     <td>0.55</td>
                     <td>3</td>
                     <td>0</td>
@@ -8326,7 +7652,6 @@
                         <a target="_blank" href="https://github.com/Snorenotify/Snoretoast">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>65.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -8347,7 +7672,6 @@
                         <a target="_blank" href="https://github.com/justchells/FinProj">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -8368,7 +7692,6 @@
                         <a target="_blank" href="https://github.com/GatherTeam/gatherTeam">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>60.0</td>
                     <td>0.861111</td>
                     <td>2</td>
                     <td>0</td>
@@ -8389,7 +7712,6 @@
                         <a target="_blank" href="https://github.com/fablab-bayreuth/fablight">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>60.0</td>
                     <td>0.375</td>
                     <td>2</td>
                     <td>0</td>
@@ -8410,7 +7732,6 @@
                         <a target="_blank" href="https://github.com/Michaelpro/PokerSim">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>80.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -8431,7 +7752,6 @@
                         <a target="_blank" href="https://github.com/Keyral/usine">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.490964</td>
                     <td>1</td>
                     <td>0</td>
@@ -8452,7 +7772,6 @@
                         <a target="_blank" href="https://github.com/jjguti/hermes">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>50.0</td>
                     <td>0.956522</td>
                     <td>1</td>
                     <td>0</td>
@@ -8473,7 +7792,6 @@
                         <a target="_blank" href="https://github.com/hchouhan/I-Recommend-This">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>25.0</td>
                     <td>0.5</td>
                     <td>1</td>
                     <td>0</td>
@@ -8494,7 +7812,6 @@
                         <a target="_blank" href="https://github.com/sapi/eu4Replay">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>75.0</td>
                     <td>0.740741</td>
                     <td>1</td>
                     <td>0</td>
@@ -8515,7 +7832,6 @@
                         <a target="_blank" href="https://github.com/budi1200/BudisMod">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -8536,7 +7852,6 @@
                         <a target="_blank" href="https://github.com/SinaCloudStorage/SCS_Client">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.5</td>
                     <td>1</td>
                     <td>0</td>
@@ -8557,7 +7872,6 @@
                         <a target="_blank" href="https://github.com/AzDarGee/seat-yourself">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>30.0</td>
                     <td>0.17757</td>
                     <td>1</td>
                     <td>0</td>
@@ -8578,7 +7892,6 @@
                         <a target="_blank" href="https://github.com/Reyko/FinalProject-WeGotCoders">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.533981</td>
                     <td>1</td>
                     <td>0</td>
@@ -8599,7 +7912,6 @@
                         <a target="_blank" href="https://github.com/yaoxisheng/VE489_project">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.833333</td>
                     <td>3</td>
                     <td>0</td>
@@ -8620,7 +7932,6 @@
                         <a target="_blank" href="https://github.com/goten4/simplerest">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>50.0</td>
                     <td>0.8125</td>
                     <td>1</td>
                     <td>0</td>
@@ -8641,7 +7952,6 @@
                         <a target="_blank" href="https://github.com/JulienPalard/KISSPush">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>40.0</td>
                     <td>0.6</td>
                     <td>1</td>
                     <td>0</td>
@@ -8662,7 +7972,6 @@
                         <a target="_blank" href="https://github.com/tliero/transactions">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>0.958333</td>
                     <td>1</td>
                     <td>0</td>
@@ -8683,7 +7992,6 @@
                         <a target="_blank" href="https://github.com/casualsteps/spree_elasticsearch">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>75.0</td>
                     <td>0.444444</td>
                     <td>3</td>
                     <td>0</td>
@@ -8704,7 +8012,6 @@
                         <a target="_blank" href="https://github.com/mechiland/stompc">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>0.395349</td>
                     <td>4</td>
                     <td>0</td>
@@ -8725,7 +8032,6 @@
                         <a target="_blank" href="https://github.com/TheProfitCMS/the_storages">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>40.0</td>
                     <td>0.631579</td>
                     <td>1</td>
                     <td>0</td>
@@ -8746,7 +8052,6 @@
                         <a target="_blank" href="https://github.com/core9/module-server-undertow">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>0.727273</td>
                     <td>1</td>
                     <td>1</td>
@@ -8767,7 +8072,6 @@
                         <a target="_blank" href="https://github.com/Metrakit/larabb">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>40.0</td>
                     <td>0.855102</td>
                     <td>1</td>
                     <td>0</td>
@@ -8788,7 +8092,6 @@
                         <a target="_blank" href="https://github.com/Nahuelxzx/Tp_finalweb">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.86174</td>
                     <td>1</td>
                     <td>0</td>
@@ -8809,7 +8112,6 @@
                         <a target="_blank" href="https://github.com/medallia/unsafe">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.941176</td>
                     <td>1</td>
                     <td>0</td>
@@ -8830,7 +8132,6 @@
                         <a target="_blank" href="https://github.com/efficient/HERD">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>80.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -8851,7 +8152,6 @@
                         <a target="_blank" href="https://github.com/pokebyte/Spark360">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>65.0</td>
                     <td>0.987179</td>
                     <td>2</td>
                     <td>0</td>
@@ -8872,7 +8172,6 @@
                         <a target="_blank" href="https://github.com/justautopilot/stickystamp-api-python-client">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.25</td>
                     <td>1</td>
                     <td>0</td>
@@ -8893,7 +8192,6 @@
                         <a target="_blank" href="https://github.com/platanus/hangout-hipchat-addon">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.444444</td>
                     <td>1</td>
                     <td>0</td>
@@ -8914,7 +8212,6 @@
                         <a target="_blank" href="https://github.com/Erfanehgh/textmining">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>30.0</td>
                     <td>0.410448</td>
                     <td>1</td>
                     <td>0</td>
@@ -8935,7 +8232,6 @@
                         <a target="_blank" href="https://github.com/mesos/storm">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>90.0</td>
                     <td>1.0</td>
                     <td>6</td>
                     <td>1</td>
@@ -8956,7 +8252,6 @@
                         <a target="_blank" href="https://github.com/bwr/tinynote">Web</a>
                     </td>
                     <td>C</td>
-                    <td>65.0</td>
                     <td>0.9375</td>
                     <td>1</td>
                     <td>0</td>
@@ -8977,7 +8272,6 @@
                         <a target="_blank" href="https://github.com/MKalat/BFQt">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -8998,7 +8292,6 @@
                         <a target="_blank" href="https://github.com/carlynorama/django_test_deploy">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.214286</td>
                     <td>1</td>
                     <td>0</td>
@@ -9019,7 +8312,6 @@
                         <a target="_blank" href="https://github.com/naehrstoff/ideabucket">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.6</td>
                     <td>1</td>
                     <td>0</td>
@@ -9040,7 +8332,6 @@
                         <a target="_blank" href="https://github.com/christianfinnstrom/Piano_app">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>60.0</td>
                     <td>0.615385</td>
                     <td>2</td>
                     <td>0</td>
@@ -9061,7 +8352,6 @@
                         <a target="_blank" href="https://github.com/searchisko/elasticsearch-river-sysinfo">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>1</td>
@@ -9082,7 +8372,6 @@
                         <a target="_blank" href="https://github.com/stpettersens/Packager">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>45.0</td>
                     <td>0.333333</td>
                     <td>1</td>
                     <td>1</td>
@@ -9103,7 +8392,6 @@
                         <a target="_blank" href="https://github.com/BrightTag/agathon">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -9124,7 +8412,6 @@
                         <a target="_blank" href="https://github.com/nbvehrfr/ruby-iqfeed">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>80.0</td>
                     <td>0.7</td>
                     <td>2</td>
                     <td>0</td>
@@ -9145,7 +8432,6 @@
                         <a target="_blank" href="https://github.com/EtherCasts/training">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>65.0</td>
                     <td>0.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -9166,7 +8452,6 @@
                         <a target="_blank" href="https://github.com/INFN-Catania/IDPPublic">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>90.0</td>
                     <td>0.794118</td>
                     <td>2</td>
                     <td>1</td>
@@ -9187,7 +8472,6 @@
                         <a target="_blank" href="https://github.com/ayaz15m/Blog">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.5</td>
                     <td>2</td>
                     <td>0</td>
@@ -9208,7 +8492,6 @@
                         <a target="_blank" href="https://github.com/Murrx/animated-batman">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>0.909091</td>
                     <td>2</td>
                     <td>0</td>
@@ -9229,7 +8512,6 @@
                         <a target="_blank" href="https://github.com/bguggs/EcocampHackathon2014">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>3</td>
                     <td>0</td>
@@ -9250,7 +8532,6 @@
                         <a target="_blank" href="https://github.com/torqueforge/poodl_2014_july">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.416667</td>
                     <td>1</td>
                     <td>0</td>
@@ -9271,7 +8552,6 @@
                         <a target="_blank" href="https://github.com/thekompanee/referehencible">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>35.0</td>
                     <td>0.25</td>
                     <td>1</td>
                     <td>1</td>
@@ -9292,7 +8572,6 @@
                         <a target="_blank" href="https://github.com/kurenn/market_place_api">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.297297</td>
                     <td>1</td>
                     <td>0</td>
@@ -9313,7 +8592,6 @@
                         <a target="_blank" href="https://github.com/laughday/LaughDayServer">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.8</td>
                     <td>3</td>
                     <td>0</td>
@@ -9334,7 +8612,6 @@
                         <a target="_blank" href="https://github.com/ManjariKumar/Final-Project">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.32</td>
                     <td>1</td>
                     <td>0</td>
@@ -9355,7 +8632,6 @@
                         <a target="_blank" href="https://github.com/robertkhoury/estate_proj">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>50.0</td>
                     <td>0.648649</td>
                     <td>1</td>
                     <td>0</td>
@@ -9376,7 +8652,6 @@
                         <a target="_blank" href="https://github.com/glob3mobile/mmt-vector-tiles">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -9397,7 +8672,6 @@
                         <a target="_blank" href="https://github.com/spacetelescope/imexam">Web</a>
                     </td>
                     <td>C</td>
-                    <td>70.0</td>
                     <td>0.780488</td>
                     <td>1</td>
                     <td>1</td>
@@ -9418,7 +8692,6 @@
                         <a target="_blank" href="https://github.com/markhuot/req">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>20.0</td>
                     <td>0.6</td>
                     <td>1</td>
                     <td>0</td>
@@ -9439,7 +8712,6 @@
                         <a target="_blank" href="https://github.com/aimjwizards/leetcode">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.1875</td>
                     <td>1</td>
                     <td>0</td>
@@ -9460,7 +8732,6 @@
                         <a target="_blank" href="https://github.com/spreadsort/sort">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>50.0</td>
                     <td>0.205128</td>
                     <td>1</td>
                     <td>0</td>
@@ -9481,7 +8752,6 @@
                         <a target="_blank" href="https://github.com/donnemartin/photogallery">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>75.0</td>
                     <td>0.764706</td>
                     <td>1</td>
                     <td>1</td>
@@ -9502,7 +8772,6 @@
                         <a target="_blank" href="https://github.com/muchweb/simple-php-upload">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>45.0</td>
                     <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -9523,7 +8792,6 @@
                         <a target="_blank" href="https://github.com/anjlab/triggerable">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>60.0</td>
                     <td>0.9375</td>
                     <td>1</td>
                     <td>1</td>
@@ -9544,7 +8812,6 @@
                         <a target="_blank" href="https://github.com/liuluheng/CTCI">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>60.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -9565,7 +8832,6 @@
                         <a target="_blank" href="https://github.com/HANDEXP/HANDMobileExpAndroidNEW">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>80.0</td>
                     <td>0.959911</td>
                     <td>2</td>
                     <td>0</td>
@@ -9586,7 +8852,6 @@
                         <a target="_blank" href="https://github.com/chrishadi/SublimeRunOnSave">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>20.0</td>
                     <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -9607,7 +8872,6 @@
                         <a target="_blank" href="https://github.com/robinsedlaczek/ModelR">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>60.0</td>
                     <td>0.826667</td>
                     <td>1</td>
                     <td>0</td>
@@ -9628,7 +8892,6 @@
                         <a target="_blank" href="https://github.com/joegesualdo/weather-wear">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.419355</td>
                     <td>1</td>
                     <td>1</td>
@@ -9649,7 +8912,6 @@
                         <a target="_blank" href="https://github.com/gregdavisfromnj/citely">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>60.0</td>
                     <td>0.666667</td>
                     <td>2</td>
                     <td>0</td>
@@ -9670,7 +8932,6 @@
                         <a target="_blank" href="https://github.com/venj123/myCompany">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.2</td>
                     <td>1</td>
                     <td>0</td>
@@ -9691,7 +8952,6 @@
                         <a target="_blank" href="https://github.com/gnovak/photobot-app">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.333333</td>
                     <td>1</td>
                     <td>0</td>
@@ -9712,7 +8972,6 @@
                         <a target="_blank" href="https://github.com/satorazon/btprojekt">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.782609</td>
                     <td>2</td>
                     <td>0</td>
@@ -9733,7 +8992,6 @@
                         <a target="_blank" href="https://github.com/mehoggan/Sandbox">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>80.0</td>
                     <td>0.819963</td>
                     <td>2</td>
                     <td>0</td>
@@ -9754,7 +9012,6 @@
                         <a target="_blank" href="https://github.com/henderjon/cleverservicewrapper">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>35.0</td>
                     <td>0.625</td>
                     <td>1</td>
                     <td>1</td>
@@ -9775,7 +9032,6 @@
                         <a target="_blank" href="https://github.com/zimeon/mx">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.8</td>
                     <td>1</td>
                     <td>0</td>
@@ -9796,7 +9052,6 @@
                         <a target="_blank" href="https://github.com/foreverhy/verihy">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.787879</td>
                     <td>1</td>
                     <td>0</td>
@@ -9817,7 +9072,6 @@
                         <a target="_blank" href="https://github.com/BradWells/App_Engine_app">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>70.0</td>
                     <td>0.941176</td>
                     <td>1</td>
                     <td>0</td>
@@ -9838,7 +9092,6 @@
                         <a target="_blank" href="https://github.com/spscream/thunderflow">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.522727</td>
                     <td>1</td>
                     <td>1</td>
@@ -9859,7 +9112,6 @@
                         <a target="_blank" href="https://github.com/MapleLeaf7/CherryWeb">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.444444</td>
                     <td>2</td>
                     <td>0</td>
@@ -9880,7 +9132,6 @@
                         <a target="_blank" href="https://github.com/gobudgit/gobudgit">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.69697</td>
                     <td>2</td>
                     <td>1</td>
@@ -9901,7 +9152,6 @@
                         <a target="_blank" href="https://github.com/dse/watchface-dot-matrix-2">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -9922,7 +9172,6 @@
                         <a target="_blank" href="https://github.com/janocl/CSharp">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.9375</td>
                     <td>1</td>
                     <td>0</td>
@@ -9943,7 +9192,6 @@
                         <a target="_blank" href="https://github.com/jasongrimes/php-paginator">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>55.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>1</td>
@@ -9964,7 +9212,6 @@
                         <a target="_blank" href="https://github.com/kbase/genome_comparison">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>75.0</td>
                     <td>0.978873</td>
                     <td>1</td>
                     <td>0</td>
@@ -9985,7 +9232,6 @@
                         <a target="_blank" href="https://github.com/ptgamr/cordova-google-play-game">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>85.0</td>
                     <td>0.833333</td>
                     <td>2</td>
                     <td>0</td>
@@ -10006,7 +9252,6 @@
                         <a target="_blank" href="https://github.com/loiannog/cylinder_detection">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>2</td>
                     <td>0</td>
@@ -10027,7 +9272,6 @@
                         <a target="_blank" href="https://github.com/joninvski/showcase_server">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.714286</td>
                     <td>1</td>
                     <td>0</td>
@@ -10048,7 +9292,6 @@
                         <a target="_blank" href="https://github.com/matt2uy/Gun-Fight-Arcade">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>0.0</td>
                     <td>0.333333</td>
                     <td>1</td>
                     <td>0</td>
@@ -10069,7 +9312,6 @@
                         <a target="_blank" href="https://github.com/Palmabit-IT/multilanguage">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>75.0</td>
                     <td>0.897436</td>
                     <td>1</td>
                     <td>1</td>
@@ -10090,7 +9332,6 @@
                         <a target="_blank" href="https://github.com/loyos/quiker">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.924119</td>
                     <td>1</td>
                     <td>1</td>
@@ -10111,7 +9352,6 @@
                         <a target="_blank" href="https://github.com/stephenjust/cmput301-assign1">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>50.0</td>
                     <td>0.928571</td>
                     <td>1</td>
                     <td>0</td>
@@ -10132,7 +9372,6 @@
                         <a target="_blank" href="https://github.com/Quobject/SocketIoClientDotNet">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>65.0</td>
                     <td>0.716667</td>
                     <td>1</td>
                     <td>0</td>
@@ -10153,7 +9392,6 @@
                         <a target="_blank" href="https://github.com/jAlvarezCalderon/digilist-services">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>75.0</td>
                     <td>0.974777</td>
                     <td>1</td>
                     <td>0</td>
@@ -10174,7 +9412,6 @@
                         <a target="_blank" href="https://github.com/itstep2014springEvening/CommonProjects">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>0.4</td>
                     <td>3</td>
                     <td>0</td>
@@ -10195,7 +9432,6 @@
                         <a target="_blank" href="https://github.com/leonardodiasmultimidia/Apollo">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>0.0</td>
                     <td>0.931034</td>
                     <td>1</td>
                     <td>0</td>
@@ -10216,7 +9452,6 @@
                         <a target="_blank" href="https://github.com/oamat/gestionus">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.353659</td>
                     <td>1</td>
                     <td>0</td>
@@ -10238,7 +9473,6 @@
                     </td>
                     <td>Python</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>2</td>
                     <td>0</td>
                     <td>0.024938</td>
@@ -10258,7 +9492,6 @@
                         <a target="_blank" href="https://github.com/carlos-jenkins/python-github-webhooks">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>45.0</td>
                     <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -10280,7 +9513,6 @@
                     </td>
                     <td>Python</td>
                     <td>0.0</td>
-                    <td>0.0</td>
                     <td>1</td>
                     <td>0</td>
                     <td>0.0</td>
@@ -10300,7 +9532,6 @@
                         <a target="_blank" href="https://github.com/jhancock1975/data-mining-assignment-2">Web</a>
                     </td>
                     <td>Java</td>
-                    <td>70.0</td>
                     <td>0.909091</td>
                     <td>1</td>
                     <td>0</td>
@@ -10321,7 +9552,6 @@
                         <a target="_blank" href="https://github.com/hackersean/middleware">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.428571</td>
                     <td>2</td>
                     <td>0</td>
@@ -10342,7 +9572,6 @@
                         <a target="_blank" href="https://github.com/aflores/inventory2.1">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.483871</td>
                     <td>1</td>
                     <td>0</td>
@@ -10363,7 +9592,6 @@
                         <a target="_blank" href="https://github.com/Tribeforce/Tribeforce-application-original">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>40.0</td>
                     <td>0.490826</td>
                     <td>1</td>
                     <td>0</td>
@@ -10384,7 +9612,6 @@
                         <a target="_blank" href="https://github.com/PeoneEr/hsstat">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.485294</td>
                     <td>1</td>
                     <td>0</td>
@@ -10405,7 +9632,6 @@
                         <a target="_blank" href="https://github.com/appleboy/CodeIgniter-App">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>0.0</td>
                     <td>0.7</td>
                     <td>1</td>
                     <td>0</td>
@@ -10426,7 +9652,6 @@
                         <a target="_blank" href="https://github.com/JoeIT/ssu">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>60.0</td>
                     <td>0.907643</td>
                     <td>1</td>
                     <td>0</td>
@@ -10447,7 +9672,6 @@
                         <a target="_blank" href="https://github.com/krother/rxnconcompiler">Web</a>
                     </td>
                     <td>Python</td>
-                    <td>75.0</td>
                     <td>0.584158</td>
                     <td>2</td>
                     <td>1</td>
@@ -10468,7 +9692,6 @@
                         <a target="_blank" href="https://github.com/theforeman/hammer-tests">Web</a>
                     </td>
                     <td>Ruby</td>
-                    <td>0.0</td>
                     <td>0.923077</td>
                     <td>1</td>
                     <td>0</td>
@@ -10489,7 +9712,6 @@
                         <a target="_blank" href="https://github.com/wujysh/WFS">Web</a>
                     </td>
                     <td>C</td>
-                    <td>0.0</td>
                     <td>1.0</td>
                     <td>1</td>
                     <td>0</td>
@@ -10510,7 +9732,6 @@
                         <a target="_blank" href="https://github.com/eplugplay/ManageImages">Web</a>
                     </td>
                     <td>C#</td>
-                    <td>0.0</td>
                     <td>0.75</td>
                     <td>1</td>
                     <td>0</td>
@@ -10531,7 +9752,6 @@
                         <a target="_blank" href="https://github.com/smetdenis/jbdump">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>70.0</td>
                     <td>0.842105</td>
                     <td>1</td>
                     <td>0</td>
@@ -10552,7 +9772,6 @@
                         <a target="_blank" href="https://github.com/zhangyulu/OnlineJudge">Web</a>
                     </td>
                     <td>C++</td>
-                    <td>0.0</td>
                     <td>0.9375</td>
                     <td>1</td>
                     <td>0</td>
@@ -10573,7 +9792,6 @@
                         <a target="_blank" href="https://github.com/nezbryk/fm-tech">Web</a>
                     </td>
                     <td>PHP</td>
-                    <td>70.0</td>
                     <td>0.727528</td>
                     <td>1</td>
                     <td>0</td>
@@ -10585,6 +9803,286 @@
                     <td>active</td>
                     <td>0</td>
                     <td>2016-02-22 11:33:43</td>
+                </tr>
+                
+                <tr>
+                    <td>thyrons/mantenimiento_inven...</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/thyrons/mantenimiento_inventario">API</a> | 
+                        <a target="_blank" href="https://github.com/thyrons/mantenimiento_inventario">Web</a>
+                    </td>
+                    <td>PHP</td>
+                    <td>0.732004</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0.164165</td>
+                    <td>51.0</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.000314</td>
+                    <td>active</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:43</td>
+                </tr>
+                
+                <tr>
+                    <td>EoD/Chisel-Legacy</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/EoD/Chisel-Legacy">API</a> | 
+                        <a target="_blank" href="https://github.com/EoD/Chisel-Legacy">Web</a>
+                    </td>
+                    <td>Java</td>
+                    <td>0.974026</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0.021251</td>
+                    <td>8.5</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>dormant</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:43</td>
+                </tr>
+                
+                <tr>
+                    <td>mohansn/quoranoftheday</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/mohansn/quoranoftheday">API</a> | 
+                        <a target="_blank" href="https://github.com/mohansn/quoranoftheday">Web</a>
+                    </td>
+                    <td>Python</td>
+                    <td>0.795918</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.197546</td>
+                    <td>25.5</td>
+                    <td>1</td>
+                    <td>0.5</td>
+                    <td>0.117486</td>
+                    <td>active</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:43</td>
+                </tr>
+                
+                <tr>
+                    <td>lenok3383/DownloaderService</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/lenok3383/DownloaderService">API</a> | 
+                        <a target="_blank" href="https://github.com/lenok3383/DownloaderService">Web</a>
+                    </td>
+                    <td>Python</td>
+                    <td>0.615385</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.103896</td>
+                    <td>0.0</td>
+                    <td>0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>active</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:43</td>
+                </tr>
+                
+                <tr>
+                    <td>ceholden/misc</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/ceholden/misc">API</a> | 
+                        <a target="_blank" href="https://github.com/ceholden/misc">Web</a>
+                    </td>
+                    <td>Python</td>
+                    <td>0.875</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.231372</td>
+                    <td>8.5</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>active</td>
+                    <td>2</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>Godofdrakes/AIE_Pong</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/Godofdrakes/AIE_Pong">API</a> | 
+                        <a target="_blank" href="https://github.com/Godofdrakes/AIE_Pong">Web</a>
+                    </td>
+                    <td>C++</td>
+                    <td>1.0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.201669</td>
+                    <td>51.0</td>
+                    <td>0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>active</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>emnh/uio</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/emnh/uio">API</a> | 
+                        <a target="_blank" href="https://github.com/emnh/uio">Web</a>
+                    </td>
+                    <td>Python</td>
+                    <td>0.925</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.076971</td>
+                    <td>25.5</td>
+                    <td>0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>active</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>akhiljain93/ubiquitous-fox</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/akhiljain93/ubiquitous-fox">API</a> | 
+                        <a target="_blank" href="https://github.com/akhiljain93/ubiquitous-fox">Web</a>
+                    </td>
+                    <td>Java</td>
+                    <td>1.0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0.071429</td>
+                    <td>2.318182</td>
+                    <td>0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>dormant</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>davidsanchezcrespillo/LtNouns</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/davidsanchezcrespillo/LtNouns">API</a> | 
+                        <a target="_blank" href="https://github.com/davidsanchezcrespillo/LtNouns">Web</a>
+                    </td>
+                    <td>PHP</td>
+                    <td>1.0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0.03009</td>
+                    <td>12.75</td>
+                    <td>0</td>
+                    <td>0.0</td>
+                    <td>0.461456</td>
+                    <td>active</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>liampcollins/svp</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/liampcollins/svp">API</a> | 
+                        <a target="_blank" href="https://github.com/liampcollins/svp">Web</a>
+                    </td>
+                    <td>Ruby</td>
+                    <td>0.48913</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.218069</td>
+                    <td>12.75</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.197617</td>
+                    <td>active</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>micw/cross-stoppuhr</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/micw/cross-stoppuhr">API</a> | 
+                        <a target="_blank" href="https://github.com/micw/cross-stoppuhr">Web</a>
+                    </td>
+                    <td>Java</td>
+                    <td>1.0</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0.043333</td>
+                    <td>0.0</td>
+                    <td>0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>dormant</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>tpavlek/UODAClient</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/tpavlek/UODAClient">API</a> | 
+                        <a target="_blank" href="https://github.com/tpavlek/UODAClient">Web</a>
+                    </td>
+                    <td>PHP</td>
+                    <td>0.896552</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0.216495</td>
+                    <td>17.0</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.351974</td>
+                    <td>active</td>
+                    <td>1</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>selfcommit/PassingNotes</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/selfcommit/PassingNotes">API</a> | 
+                        <a target="_blank" href="https://github.com/selfcommit/PassingNotes">Web</a>
+                    </td>
+                    <td>Java</td>
+                    <td>0.9</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0.066975</td>
+                    <td>25.5</td>
+                    <td>0</td>
+                    <td>1.5</td>
+                    <td>0.0</td>
+                    <td>active</td>
+                    <td>2</td>
+                    <td>2016-02-22 11:33:42</td>
+                </tr>
+                
+                <tr>
+                    <td>bobjrsenior/3DBulletHell</td>
+                    <td>
+                        <a target="_blank" href="https://api.github.com/repos/bobjrsenior/3DBulletHell">API</a> | 
+                        <a target="_blank" href="https://github.com/bobjrsenior/3DBulletHell">Web</a>
+                    </td>
+                    <td>C</td>
+                    <td>0.0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0.034091</td>
+                    <td>0.0</td>
+                    <td>1</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>dormant</td>
+                    <td>0</td>
+                    <td>2016-02-22 11:33:42</td>
                 </tr>
                 
             </tbody>
@@ -10604,7 +10102,7 @@
         <br style="clear: both;" />
         <hr/>
         <footer>
-            <p>&copy; 2016 - RepoReapers</p>
+            <p>&copy;  - RepoReapers</p>
         </footer>
     </div>
 
